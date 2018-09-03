@@ -1,0 +1,36 @@
+IF
+ Global("YSFamilyFight","GLOBAL",1)
+ Allegiance(Myself,NEUTRAL)
+THEN
+RESPONSE #100
+ Enemy()
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(BERSERKER_RAGE)
+THEN
+	RESPONSE #100
+		Spell(Myself,BERSERKER_RAGE)
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+
+
+IF
+  Global("AvengingDivalir","GLOBAL",1)
+  Global("YSSISLeave","LOCALS",0)
+THEN
+  RESPONSE #100
+  EscapeArea()
+  SetGlobal("YSSISLeave","LOCALS",1)
+END

@@ -1,0 +1,13 @@
+IF
+  Global("Divalir1Exists","AR2800",0)
+OR(3)
+  Global("PCBetrayedYasraena","GLOBAL",1)
+  Global("YSTooRisky","GLOBAL",1)
+  Global("DivalirRescued","GLOBAL",1)
+
+THEN
+ RESPONSE #100
+  SetGlobal("Divalir1Exists","AR2800",1)
+  CreateCreature("DIVALIR1",[4603.2816],5)
+  Continue()
+END

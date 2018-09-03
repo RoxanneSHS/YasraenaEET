@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("YSMOM")
+		Wait(1)
+		SmallWait(5)
+		FaceObject("YASRAENA")
+		SmallWait(5)
+		ActionOverride("YASRAENA",FaceObject("YSMOM"))
+		Wait(2)
+		ForceSpell("YASRAENA",CUTSCENE_FLESH_TO_STONE)
+		SmallWait(10)
+		Wait(3)
+		ForceSpell("YASRAENA",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE)
+		Wait(1)
+		EndCutSceneMode()
+END

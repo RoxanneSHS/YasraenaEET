@@ -1,0 +1,190 @@
+IF
+ InParty(Myself)
+ AreaCheck("AR6101")
+ Global("YSSendaiEnclaveTalk","GLOBAL",0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("YSSendaiEnclaveTalk","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+    !InParty(Myself)
+    Global("YasraenaRepLoss","GLOBAL",1)
+THEN
+    RESPONSE #100
+      SetGlobal("YasraenaRepLoss","GLOBAL",0)
+      ReputationInc(2)
+END
+
+IF
+    InParty(Myself)
+    Global("YasraenaJoined","GLOBAL",1)
+    ReputationGT(Player1,10)
+    !Global("YasraenaRepLoss","GLOBAL",1)
+THEN
+    RESPONSE #100
+        ReputationInc(-2)
+        SetGlobal("YasraenaRepLoss","GLOBAL",1)
+        Continue()
+END
+
+
+
+
+IF
+ InParty(Myself)
+ Global("YasraenaPocketPlane","GLOBAL",0)
+ AreaCheck("AR4000")
+THEN
+ RESPONSE #100
+ SetGlobal("YasraenaPocketPlane","GLOBAL",1)
+ StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ InParty(Myself)
+ Global("YasraenaPocketPlane","GLOBAL",2)
+THEN
+ RESPONSE #100
+ SetGlobal("YasraenaPocketPlane","GLOBAL",3)
+ TakePartyItem("IRONKISS")
+ DestroyItem("IRONKISS")
+ TakePartyItem("FIREFLOW")
+ DestroyItem("FIREFLOW")
+ GiveItemCreate("IRONKIS2","YASRAENA",0,0,0)
+ GiveItemCreate("FIREFLO2","YASRAENA",0,0,0)
+END
+
+
+
+IF
+   !HasItem("IRONKIS2",Myself)
+   OR(6)
+      HasItem("IRONKIS2",Player1)
+      HasItem("IRONKIS2",Player2)
+      HasItem("IRONKIS2",Player3)
+      HasItem("IRONKIS2",Player4)
+      HasItem("IRONKIS2",Player5)
+      HasItem("IRONKIS2",Player6)
+THEN
+   RESPONSE #100
+     ActionOverride(Player1,GiveItem("IRONKIS2","Yasraena"))
+     ActionOverride(Player2,GiveItem("IRONKIS2","Yasraena"))
+     ActionOverride(Player3,GiveItem("IRONKIS2","Yasraena"))
+     ActionOverride(Player4,GiveItem("IRONKIS2","Yasraena"))
+     ActionOverride(Player5,GiveItem("IRONKIS2","Yasraena"))
+     ActionOverride(Player6,GiveItem("IRONKIS2","Yasraena"))
+     DisplayStringHead(Myself,00003)
+END
+
+
+
+
+
+IF
+   !HasItem("FIREFLO2",Myself)
+   OR(6)
+      HasItem("FIREFLO2",Player1)
+      HasItem("FIREFLO2",Player2)
+      HasItem("FIREFLO2",Player3)
+      HasItem("FIREFLO2",Player4)
+      HasItem("FIREFLO2",Player5)
+      HasItem("FIREFLO2",Player6)
+THEN
+   RESPONSE #100
+     ActionOverride(Player1,GiveItem("FIREFLO2","Yasraena"))
+     ActionOverride(Player2,GiveItem("FIREFLO2","Yasraena"))
+     ActionOverride(Player3,GiveItem("FIREFLO2","Yasraena"))
+     ActionOverride(Player4,GiveItem("FIREFLO2","Yasraena"))
+     ActionOverride(Player5,GiveItem("FIREFLO2","Yasraena"))
+     ActionOverride(Player6,GiveItem("FIREFLO2","Yasraena"))
+     DisplayStringHead(Myself,00001)
+END
+
+
+
+IF
+   !HasItem("IRONKIS2",Myself)
+THEN
+   RESPONSE #100
+ GiveItemCreate("IRONKIS2","YASRAENA",0,0,0)
+END
+
+
+IF
+   !HasItem("FIREFLO2",Myself)
+THEN
+   RESPONSE #100
+ GiveItemCreate("FIREFLO2","YASRAENA",0,0,0)
+END
+
+
+/*
+IF
+   !HasItem("IRONKIS2",Myself)
+      !HasItem("IRONKIS2",Player1)
+      !HasItem("IRONKIS2",Player2)
+      !HasItem("IRONKIS2",Player3)
+      !HasItem("IRONKIS2",Player4)
+      !HasItem("IRONKIS2",Player5)
+      !HasItem("IRONKIS2",Player6)
+THEN
+   RESPONSE #100
+     ActionOverride(Player1,PickUpItem("IRONKIS2"))
+     ActionOverride(Player2,PickUpItem("IRONKIS2"))
+     ActionOverride(Player3,PickUpItem("IRONKIS2"))
+     ActionOverride(Player4,PickUpItem("IRONKIS2"))
+     ActionOverride(Player5,PickUpItem("IRONKIS2"))
+     ActionOverride(Player6,PickUpItem("IRONKIS2"))
+     DisplayStringHead(Myself,00004)
+END
+
+
+
+
+
+IF
+   !HasItem("FIREFLO2",Myself)
+      !HasItem("FIREFLO2",Player1)
+      !HasItem("FIREFLO2",Player2)
+      !HasItem("FIREFLO2",Player3)
+      !HasItem("FIREFLO2",Player4)
+      !HasItem("FIREFLO2",Player5)
+      !HasItem("FIREFLO2",Player6)
+THEN
+   RESPONSE #100
+     ActionOverride(Player1,PickUpItem("FIREFLO2"))
+     ActionOverride(Player2,PickUpItem("FIREFLO2"))
+     ActionOverride(Player3,PickUpItem("FIREFLO2"))
+     ActionOverride(Player4,PickUpItem("FIREFLO2"))
+     ActionOverride(Player5,PickUpItem("FIREFLO2"))
+     ActionOverride(Player6,PickUpItem("FIREFLO2"))
+     DisplayStringHead(Myself,00002)
+END
+*/
+
+
+IF
+   NumItemsGT("FIREFLO2","Yasraena",1)
+THEN
+   RESPONSE #100
+      DestroyItem("FIREFLO2")
+END
+
+
+
+IF
+   NumItemsGT("IRONKIS2","Yasraena",1)
+THEN
+   RESPONSE #100
+      DestroyItem("IRONKIS2")
+END
+
+
+
+

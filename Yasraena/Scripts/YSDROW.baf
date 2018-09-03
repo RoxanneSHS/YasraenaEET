@@ -1,0 +1,32 @@
+IF
+Global("TalkedToYSCPTN","GLOBAL",1)
+Global("YSGuardsMoved","GLOBAL",0)
+Global("MetDivalir","GLOBAL",0)
+THEN
+RESPONSE #100
+EscapeAreaMove("AR2200",3438,3521,4)
+SetGlobal("YSGuardsMoved","GLOBAL",1)
+END
+
+
+IF
+ Global("YasraenaGuardsFight","GLOBAL",1)
+ Allegiance(Myself,NEUTRAL)
+THEN
+RESPONSE #100
+ Enemy()
+END
+
+IF
+ See(NearestEnemyOf(Myself))
+THEN
+ RESPONSE #100
+   AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+ Global("YSTooRisky","GLOBAL",1)
+THEN
+ RESPONSE #100
+  DestroySelf()
+END

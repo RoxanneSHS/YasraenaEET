@@ -1,0 +1,8 @@
+IF
+  Global("TalkedToYSTMCPTN","GLOBAL",1)
+  Global("NethrinExists","AR0704",0)
+THEN
+ RESPONSE #100
+  SetGlobal("NethrinExists","AR0704",1)
+  CreateCreature("YSNETHR",[364.454],7)
+END

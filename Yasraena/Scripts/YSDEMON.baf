@@ -1,0 +1,68 @@
+IF
+ Global("YSFamilyFight","GLOBAL",1)
+ Allegiance(Myself,NEUTRAL)
+THEN
+RESPONSE #100
+ Enemy()
+END
+
+
+
+
+IF
+  Global("AvengingDivalir","GLOBAL",1)
+  Global("YSDemonLeave","LOCALS",0)
+THEN
+  RESPONSE #100
+  ReallyForceSpell("YSDEMON",DRYAD_TELEPORT)
+  SetGlobal("YSDemonLeave","LOCALS",1)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("YochlolFire","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YochlolFire","LOCALS",1)
+		SetGlobalTimer("YochlolColumnFire","GLOBAL",5)
+END
+
+IF
+	GlobalTimerExpired("YochlolColumnFire","GLOBAL")
+	See(NearestEnemyOf(Myself))
+	!StateCheck(Myself,STATE_REALLY_DEAD)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy,CLERIC_FLAME_STRIKE)
+		SetGlobalTimer("YochlolColumnFire","GLOBAL",5)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Allegiance(Myself,ENEMY)
+	StateCheck(LastSeenBy,STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		AttackOneRound(LastSeenBy)
+		AttackOneRound(LastSeenBy)
+END
+
+IF
+	See([0.0.0.MAGE_ALL])
+	Allegiance(Myself,ENEMY)
+	Global("Prep","LOCALS",1)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy,WIZARD_DISPEL_MAGIC)
+		SetGlobal("Prep","LOCALS",2)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy,30)
+END
+

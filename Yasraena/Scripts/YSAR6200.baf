@@ -1,0 +1,34 @@
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("Yasraena")
+   Global("YasraenaBio","GLOBAL",0)
+   Global("PlayerChoseEssence","GLOBAL",1)
+THEN
+   RESPONSE #100
+      SetGlobal("YasraenaBio","GLOBAL",1)
+      TextScreen("YASRAND1")
+END
+
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("Yasraena")
+   Global("YasraenaBio","GLOBAL",0)
+   Global("PlayerChoseEssence","GLOBAL",0)
+   !Race(Player1,Elf)
+THEN
+   RESPONSE #100
+      SetGlobal("YasraenaBio","GLOBAL",1)
+      TextScreen("YASRAND2")
+END
+
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("Yasraena")
+   Global("YasraenaBio","GLOBAL",0)
+   Global("PlayerChoseEssence","GLOBAL",0)
+   Race(Player1,Elf)
+THEN
+   RESPONSE #100
+      SetGlobal("YasraenaBio","GLOBAL",1)
+      TextScreen("YASRAND3")
+END

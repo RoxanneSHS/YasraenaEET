@@ -1,0 +1,24 @@
+IF
+  InParty("Yasraena")
+  Global("YSTMCPTNExists","AR0300",0)
+OR(2)
+  Global("BodhiJob","GLOBAL",1)
+  Global("AranJob","GLOBAL",1)
+THEN
+ RESPONSE #100
+  SetGlobal("YSTMCPTNExists","AR0300",1)
+  CreateCreature("YSTMCPTN",[1624.3132],11)
+END
+
+
+IF
+  InParty("Yasraena")
+  GlobalLT("YSTMELFSpawned","AR0300",5)
+OR(2)
+  Global("BodhiJob","GLOBAL",1)
+  Global("AranJob","GLOBAL",1)
+THEN
+ RESPONSE #100
+  CreateCreature("YSTMELF",[1625.3234],7)
+  IncrementGlobal("YSTMELFSpawned","AR0300",1)
+END

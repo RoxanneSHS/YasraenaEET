@@ -1,0 +1,151 @@
+@0  = ~Yasraena (BG2:SvA und TdB NSC) von Nethrin und Sillara~
+@1  = ~Yasraena~
+@2  = ~Seid Ihr Freund oder Feind?~ [YASRA001]
+@3  = ~Ich muss fliehen!~ [YASRA002]
+@4  = ~Ich bin froh, mit Euch reisen zu dürfen.~ [YASRA003]
+@5  = ~Lasst nicht zu, dass die Dunkelheit in Euer Herz vordringt.~ [YASRA004]
+@6  = ~Ich bin dem Unterreich entflohen, nur um Euch zu treffen?~ [YASRA005]
+@7  = ~Ihr habt mir bewiesen, dass die Oberflächenwelt kein Stück besser ist als das Reich der Drow.~ [YASRA006]
+@8  = ~Wenn das Euer Wunsch ist, werde ich vorangehen.~ [YASRA007]
+@9  = ~Ich bin erschöpft.~ [YASRA008]
+@10 = ~Wir sollten nicht derart schutzlos herumstehen. Meine Vergangenheit könnte mich aufspüren.~ [YASRA009]
+@11 = ~Für Divalir!~ [YASRA010]
+@12 = ~Spürt die Schärfe von Eisenkuss!~ [YASRA011]
+@13 = ~Feuerblütes Zorn wird Euch zerstören!~ [YASRA012]
+@14 = ~Meine Klingen tanzen!~ [YASRA013]
+@15 = ~Ssussun pholor dos!~ [YASRA014]
+@16 = ~Uh!~ [YASRA015]
+@17 = ~So endet Yasraenas Leben...~ [YASRA016]
+@18 = ~Verteidigt mich!~ [YASRA017]
+@19 = ~Uns wurde beigebracht, dass die Elfen der Oberfläche in den Wäldern unseren Untergang planen.~ [YASRA018]
+@20 = ~Dieser Ort ist ganz anders als Menzoberranzan. Alles hier ist mir fremd.~ [YASRA019]
+@21 = ~Hier sehen meine Augen klar und deutlich.~ [YASRA020]
+@22 = ~Müssen wir im Licht herumspazieren?~ [YASRA021]
+@23 = ~Obwohl die Dunkelheit das Land bedeckt, scheinen der Mond und die Sterne noch immer auf uns herab. Ich beginne zu verstehen, warum die Elfen davon derart fasziniert sind.~ [YASRA022]
+@24 = ~Was wollt Ihr von mir?~ [YASRA023]
+@25 = ~Ihr benötigt meine Hilfe?~ [YASRA024]
+@26 = ~Ja?~ [YASRA025]
+@27 = ~Ich habe viele Talente.~ [YASRA026]
+@28 = ~Khaless nau uss mzild taga dosstan.~ [YASRA027]
+@29 = ~Worum geht es?~ [YASRA028]
+@30 = ~Ich gehe.~ [YASRA029]
+@31 = ~Ist dies der beste Weg?~ [YASRA030]
+@32 = ~Xun izil dos phuul quarthen, lueth dro.~ [YASRA031]
+@33 = ~Ich fürchte nichts.~ [YASRA032]
+@34 = ~Sofort.~ [YASRA033]
+@35 = ~Ich werde nicht versagen.~ [YASRA034]
+@36 = ~Zweifellos.~ [YASRA035]
+@37 = ~Die Drow vergeben nicht. Wenn sie mich finden, wird das mein Ende sein.~ [YASRA036]
+@38 = ~Trotz all meiner Zeit auf der Oberfläche verwirrt Ihr mich noch immer.~ [YASRA037]
+@39 = ~Meine Klingen schneiden tief!~ [YASRA038]
+@40 = ~Oloth plynn dos!~ [YASRA039]
+@41 = ~Bald werdet Ihr meinen Klingen erliegen!~ [YASRA040]
+@42 = ~Es stimmt, dass die Drow-Frauen stark sind, aber mehr kann ich nicht tragen.~ [YASRA041]
+@43 = ~Ssussan!~ [YASRA042]
+@44 = ~Die Törichten und Unachtsamen werden das Ende nicht kommen sehen.~ [YASRA043]
+@45 = ~Die Dunkelheit ist sowohl Freund als auch Feind.~ [YASRA044]
+@46 = ~Ich bin keine Taschendiebin!~ [YASRA045]
+@47 = ~Als Ihr YASRAENA nach ihrer Vergangenheit fragt, erzählt sie, dass sie froh ist, der Dunkelheit der Drow-Stadt Menzoberranzan entkommen zu sein. Nie vergisst sie jedoch zu erwähnen, dass ihr Meister, Divalir, sich opferte, damit sie fliehen konnte.~
+@48 = ~Divalir~
+@49 = ~Wache~
+@50 = ~Tsabrak~
+@51 = ~Kinalluth~
+@52 = ~Kinalluths Wache~
+@53 = ~Nethrin~
+@54 = ~Oberin Arkhenneld~
+@55 = ~Arkhenneld-Drow~
+@56 = ~Divalirs Wache~
+@57 = ~Höhere Yochlol~
+@58 = ~Tsabraks Zauberstab~
+@59 = ~Divalir benötigt diesen Stab, um sich aus seinem Gefängnis zu befreien.~
+@60 = ~Divalirs Ring~
+@61 = ~Dieser Ring leuchtet, solange Divalir am Leben ist.~
+@62 = ~Yasraenas Halskette~
+@63 = ~Diese Halskette besteht aus fein ziseliertem Gold und wird durch den größten und makellosesten Rubin geziert, den Ihr je gesehen habt. Yasraena legt sie niemals ab, und obwohl der Kette keinerlei Verzauberung innewohnt, scheint sie ebenso sehr an ihr zu hängen wie an ihren Schwertern.~
+@64 = ~Kurzschwert +2~
+@65 = ~Eisenkuss
+
+Dies ist Yasraenas magisches Kurzschwert, welches sie Eisenkuss nennt. In Vorbereitung ihrer Flucht aus dem Unterreich stattete Divalir Yasraena mit speziell für sie angefertigten Kurzschwertern aus. Dies ist eines von ihnen. Von Eisenkuss geschlagene Wunden sind tief und hören auch lange nach einem Treffer nicht auf zu bluten.
+
+EIGENSCHAFTEN:
+
+Ein getroffener Gegner erleidet fünf Runden lang 3 SP je Runde.
+
+Schaden: 1W6 +2
+ETW0-Bonus: -2
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+
+Kann nur verwendet werden von:
+ Yasraena~
+@66 = ~Kurzschwert +4~
+@67 = ~Feuerblüte
+
+Dies ist Yasraenas magisches Kurzschwert, welches sie Feuerblüte nennt. In Vorbereitung ihrer Flucht aus dem Unterreich stattete Divalir Yasraena mit speziell für sie angefertigten Kurzschwertern aus. Dies ist eines von ihnen. Die wahre Kraft von Feuerblüte liegt darin, feuerempfindlichen Kreaturen wie regenerierenden Monstern, Eisgeschöpfen und Untoten größeren Schaden zuzufügen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1
+(+2 gegen regenerierende Wesen)
+(+3 gegen Eisgeschöpfe)
+(+4 gegen Untote)
+ETW0-Bonus: -1
+(-2 gegen regenerierende Wesen)
+(-3 gegen Eisgeschöpfe)
+(-4 gegen Untote)
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+
+Kann nur verwendet werden von:
+ Yasraena~
+@68 = ~Kurzschwert +5~
+@69 = ~Eisenkuss
+
+Dies ist Yasraenas magisches Kurzschwert, welches sie Eisenkuss nennt. In Vorbereitung ihrer Flucht aus dem Unterreich stattete Divalir Yasraena mit speziell für sie angefertigten Kurzschwertern aus. Dies ist eines von ihnen. Während Yasraenas Aufenthalt in Suldanessalar verbesserte Divalir das Schwert, damit sie den vor ihr liegenden Herausforderungen besser gewappnet begegnen kann. Eisenkuss ist nun wesentlich tödlicher und schützt Yasraenas Leben gleichzeitig effektiver. Divalirs mächtige Verzauberungen regenerieren stetig ihre Lebensenergie, solange sie mit diesem Schwert ausgerüstet ist.
+
+EIGENSCHAFTEN:
+
+Es besteht eine Chance von 10%, dass ein getroffener Gegner sofort getötet wird.
+
+Schaden: 1W6 +5
+ETW0-Bonus: -5
+RK-Bonus: -1
+Konstitutions-Bonus: +1
+Regeneration: 1 TP in 2 Sek.
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+
+Kann nur verwendet werden von:
+ Yasraena~
+@70 = ~Kurzschwert +5~
+@71 = ~Feuerblüte
+
+Dies ist Yasraenas magisches Kurzschwert, welches sie Feuerblüte nennt. In Vorbereitung ihrer Flucht aus dem Unterreich stattete Divalir Yasraena mit speziell für sie angefertigten Kurzschwertern aus. Dies ist eines von ihnen. Während Yasraenas Aufenthalt in Suldanessalar verbesserte Divalir das Schwert, damit sie den vor ihr liegenden Herausforderungen besser gewappnet begegnen kann. Feuerblüte strebt nach der Vernichtung von Untoten, ist ob seiner Verzauberung jedoch auch effektiv gegen Dämonen. Wie Eisenkuss beschützt auch Feuerblüte Yasraenas Leben.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +5
+(+6 gegen Untote/Dämonen)
+ETW0-Bonus: -5
+(-6 gegen Untote/Dämonen)
+Rettungswürfe: +1
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+
+Kann nur verwendet werden von:
+ Yasraena~
+@72 = ~Nachdem <CHARNAME> zur Gottheit aufstieg, hatte Yasraena letztlich ihre Ehrenschuld abgetragen. Sie kehrte nach Suldanessalar zurück, um endlich mit ihrem geliebten Divalir vereint zu sein. Sie heirateten in Suldanessalar, aber die Elfenstadt akzeptierte die Drow nicht, trotz der Tatsache, dass sie mitgeholfen hatte, den Baum des Lebens zu retten. Das Paar verließ die Stadt kurz nach ihrer Heirat. Für fünf Jahre durchwanderten sie die Reiche. Überall stieß Yasraena auf Feindschaft und Divalir verbitterte ihr Schicksal zusehends. Nach der Geburt ihres ersten Kindes, eines Halb-Drows, dem man nur noch mehr Ablehnung entgegengebracht hätte als seiner Mutter, verließen sie Faerûn und die Materielle Ebene. Sie lebten, endlich in Frieden, bis zum Ende ihrer Tage in Sigil.~
+@73 = ~Nachdem <CHARNAME> die Prüfungen auf dem Thron von Bhaal überstanden hatte und <PRO_HESHE> von <PRO_HISHER>em Makel befreit worden war, hatte Yasraena letztlich ihre Ehrenschuld abgetragen. Sie trennte sich von der Gruppe, blieb <PRO_HIMHER> jedoch ein treue Freundin. Sie kehrte nach Suldanessalar zurück, um endlich mit ihrem geliebten Divalir vereint zu sein. Sie heirateten in Suldanessalar, aber die Elfenstadt akzeptierte die Drow nicht, trotz der Tatsache, dass sie mitgeholfen hatte, den Baum des Lebens zu retten. Das Paar verließ die Stadt kurz nach ihrer Heirat. Für fünf Jahre durchwanderten sie die Reiche. Überall stieß Yasraena auf Feindschaft und Divalir verbitterte ihr Schicksal zusehends. Nach der Geburt ihres ersten Kindes, eines Halb-Drows, dem man nur noch mehr Ablehnung entgegengebracht hätte als seiner Mutter, verließen sie Faerûn und die Materielle Ebene. Sie lebten, endlich in Frieden, bis zum Ende ihrer Tage in Sigil.~
+@74 = ~Nachdem <CHARNAME> die Prüfungen auf dem Thron von Bhaal überstanden hatte und <PRO_HESHE> von <PRO_HISHER>em Makel befreit worden war, hatte Yasraena letztlich ihre Ehrenschuld abgetragen. Sie kehrte nach Suldanessalar zurück, um endlich mit ihrem geliebten Divalir vereint zu sein. Sie heirateten in Suldanessalar, und die Elfen erlaubten der Drow, in ihrer Stadt zu leben; nicht, weil sie an der Rettung des Baums des Lebens beteiligt gewesen war, sondern durch den Einfluss von <CHARNAME>. Obwohl Yasraena in Suldanessalar geduldet wurde, konnte selbst der Einfluss von <CHARNAME> die Elfen nicht dazu bringen, sie als eine von ihnen anzusehen. Fünf Jahre lang lebten Yasraena und Divalir in Suldanessalar, toleriert, aber niemals akzeptiert. Nach der Geburt ihres ersten Kindes jedoch lehnten die Elfen sie resolut ab, und das Paar durchwanderte die Reiche. Überall stieß Yasraena auf Feindschaft und Divalir verbitterte ihr Schicksal und das ihres Kindes, eines Halb-Drows, dem man nur noch mehr Ablehnung entgegenbrachte als seiner Mutter, zusehends. Schließlich verabschiedeten sie sich von <CHARNAME> und verließen Faerûn und die Materielle Ebene. Yasraena und Divalir lebten, endlich in Frieden, bis zum Ende ihrer Tage in Sigil.~
+@75 = ~Berührt Feuerblüte kein zweites Mal! Divalir fertigte sie für MICH an!~
+@76 = ~Ich werde nicht ohne Feuerblüte gehen.~
+@77 = ~Eisenkuss gehört MIR allein!~
+@78 = ~Ich werde Divalirs Geschenk nicht zurücklassen!~

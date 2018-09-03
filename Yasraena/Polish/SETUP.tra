@@ -1,0 +1,107 @@
+@0  = ~Yasraena v7 (BG2:SoA & TOB NPC) autorzy: nethrin & Sillara of the Tamari ~ 
+@1  = ~Yasraena~
+@2  = ~Jesteœ przyjacielem, czy wrogiem?~ [YASRA001] 
+@3  = ~Muszê siê st¹d wydostaæ!~ [YASRA002]
+@4  = ~To przyjemnoœæ podró¿owaæ w twojej kompanii.~ [YASRA003] 
+@5  = ~Nie pozwól by ciemnoœæ zakrad³a siê do twego serca.~ [YASRA004]
+@6  = ~Czy tylko po to uciek³am z Podmroku, aby trafiæ do ciebie?~ [YASRA005]
+@7  = ~Nikczemnik! Pokaza³eœ mi, ¿e powierzchnia nie jest lepsza od krainy drowów.~ [YASRA006] ~To nikczemne! Pokaza³aœ mi, ¿e powierzchnia nie jest lepsza od krainy drowów.~ [YASRA006] 
+@8  = ~Jeœli taka jest twoja wola, bêdzie to dla mnie honor.~ [YASRA007]
+@9  = ~Jestem znu¿ona.~ [YASRA008] 
+@10 = ~Nie powinniœmy pozostawaæ na widoku. Moja przesz³oœæ mo¿e wci¹¿ mnie œcigaæ.~ [YASRA009]
+@11 = ~Za Divalira!~ [YASRA010]
+@12 = ~Poczuj uk¹szenie Poca³unku Stali!~ [YASRA011] 
+@13 = ~Poznaj furiê Kwiatu Ognia!~ [YASRA012]
+@14 = ~Niech zatañcz¹ moje ostrza!~ [YASRA013] 
+@15 = ~Ssussun pholor dos!~ [YASRA014]
+@16 = ~Uch!~ [YASRA015]
+@17 = ~Tak odchodzi Yasraena.~ [YASRA016]
+@18 = ~Broñ mnie!~ [YASRA017] 
+@19 = ~Dawniej uczono nas, ¿e w tych lasach elfy z powierzchni knuj¹ plany upadku naszej rasy.~ [YASRA018]
+@20 = ~To miejsce w niczym nie przypomina Menzoberranzan. Wszystko jest dla mnie obce.~ [YASRA019] 
+@21 = ~Moje oczy widz¹ tutaj jasno.~ [YASRA020] 
+@22 = ~Czy musimy siê w³óczyæ w œwietle dnia?~ [YASRA021]
+@23 = ~Chocia¿ ciemnoœæ skrywa ju¿ ziemiê, ksiê¿yc i gwiazdy wci¹¿ lœni¹ ponad nami. Zaczynam rozumieæ dlaczego cia³a niebieskie tak bardzo fascynuj¹ elfy.~ [YASRA022] 
+@24 = ~Dlaczego mnie wzywasz?~ [YASRA023]
+@25 = ~Potrzebujesz mnie?~ [YASRA024]
+@26 = ~Tak?~ [YASRA025]
+@27 = ~Wiele mogê uczyniæ.~ [YASRA026]
+@28 = ~Khaless nau uss mzild taga dosstan. ~ [YASRA027]
+@29 = ~O co chodzi?~ [YASRA028]
+@30 = ~Idê.~ [YASRA029]
+@31 = ~Czy to w³aœciwa droga?~ [YASRA030]
+@32 = ~Xun izil dos phuul quarthen, lueth dro.~ [YASRA031]
+@33 = ~Niczego siê nie lêkam.~ [YASRA032]
+@34 = ~Szybko.~ [YASRA033]
+@35 = ~To dla mnie w³aœciwe miejsce.~ [YASRA034]
+@36 = ~Bez wahania.~ [YASRA035]
+@37 = ~Drowy nie znaj¹ przebaczenia. Je¿eli mnie znajd¹, bêdzie to moja ostatnia godzina.~ [YASRA036]
+@38 = ~D³ugo ju¿ przebywam na powierzchni, lecz twoje dzia³ania wci¹¿ wprawiaj¹ mnie w zak³opotanie.~ [YASRA037]
+@39 = ~Moje ostrza tn¹ g³êboko!~ [YASRA038]
+@40 = ~Oloth plynn dos!~ [YASRA039]
+@41 = ~Moje ostrza w koñcu ciê znajd¹!~ [YASRA040]
+@42 = ~My, kobiety, jesteœmy silniejsze, ale nie zamierzam zostaæ tutaj uwi¹zana.~ [YASRA041]
+@43 = ~Ssussan!~ [YASRA042]
+@44 = ~Tylko g³upi i nieostro¿ni znajduj¹ niespodzianki na swej drodze.~ [YASRA043]
+@45 = ~Ciemnoœæ jest zarówno sprzymierzeñcem, jak i wrogiem.~ [YASRA044]
+@46 = ~Nie jestem z³odziejk¹!~ [YASRA045]
+@47 = ~Zapytana o sw¹ przesz³oœæ, Yasraena odpowiada ci, ¿e mia³a wiele szczêœcia by nie ulec ciemnoœci miasta drowów, Menzoberranzan. Nigdy jednak, ilekroæ porusza swoj¹ historiê, nie zapomina wspomnieæ o ofierze Divalira.~
+@48 = ~Divalir~
+@49 = ~Stra¿nik~
+@50 = ~Tsabrak~
+@51 = ~Kinalluth~
+@52 = ~Stra¿ Kinallutha~
+@53 = ~Nethrin~
+@54 = ~Matrona Arkhenneld~
+@55 = ~Drow Arkhenneld~
+@56 = ~Stra¿ Divalira~
+@57 = ~Wiêkszy Yochlol~
+@58 = ~Ró¿d¿ka Tsabraka~
+@59 = ~To klucz do wolnoœci Divalira.~
+@60 = ~Pierœcieñ Divalira~
+@61 = ~Tak d³ugo, jak Divalir pozostaje przy ¿yciu, pierœcieñ jarzy siê nik³ym blaskiem.~
+@62 = ~Naszyjnik Yasraeny~
+@63 = ~To naszyjnik z misternie grawerowanego z³ota. Osadzono w nim nieskazitelny rubin, najwiêkszy jaki widzia³eœ w swoim ¿yciu. Yasraena nigdy go nie zdejmuje i pomimo, i¿ brak mu magicznych w³aœciwoœci, zdaje siê byæ równie przywi¹zana do naszyjnika, jak do w³asnych mieczy.~ ~To naszyjnik z misternie grawerowanego z³ota. Osadzono w nim nieskazitelny rubin, najwiêkszy jaki widzia³aœ w swoim ¿yciu. Yasraena nigdy go nie zdejmuje i pomimo, i¿ brak mu magicznych w³aœciwoœci, zdaje siê byæ równie przywi¹zana do naszyjnika, jak do w³asnych mieczy.~
+@64 = ~Poca³unek Stali~
+@65 = ~To zaklêty miecz Yasraeny, zwany przez ni¹ Poca³unkiem Stali. W trakcie przygotowañ do ucieczki z Podmroku, Divalir wyposa¿y³ j¹ w parê bliŸniaczych ostrzy. Ta klinga jest jednym z nich.
+
+Specjalne:
+
+Uk¹szenia Poca³unku Stali zostawiaj¹ g³êbokie, obficie krwawi¹ce rany. Modyfikator +2.
+
+Mo¿e u¿ywaæ:
+Yasraena~
+@66 = ~Kwiat Ognia~
+@67 = ~To zaklêty miecz Yasraeny, zwany przez ni¹ Kwiatem Ognia. W trakcie przygotowañ do ucieczki z Podmroku, Divalir wyposa¿y³ j¹ w parê bliŸniaczych ostrzy. Ta klinga jest jednym z nich.
+
+Specjalne:
+
+Prawdziwa si³a Kwiatu Ognia ujawnia siê w walce z przeciwnikami podatnymi na dzia³anie ognia, takimi jak trolle, istoty lodu, oraz nieumarli. Modyfikator +1 przeciwko zwyk³ym przeciwnikom.
+
+Mo¿e u¿ywaæ:
+Yasraena~
+@68 = ~Poca³unek Stali +5~
+@69 = ~To zaklêty miecz Yasraeny, zwany przez ni¹ Poca³unkiem Stali. W trakcie przygotowañ do ucieczki z Podmroku, Divalir wyposa¿y³ j¹ w parê bliŸniaczych ostrzy. Ta klinga jest jednym z nich. Podczas pobytu w Suldanessellar, Divalir wzmocni³ jej ostrze, aby lepiej chroni³o Yasraenê przed zbli¿aj¹cymi siê niebezpieczeñstwami.
+
+Specjalne:
+
+Poca³unek Stali sta³ siê jeszcze bardziej niebezpieczny i teraz sam strze¿e ¿ycia Yasraeny. Potê¿ne zaklêcia Divalira odnawiaj¹ si³y witalne drowki, ilekroæ ta dzier¿y tê klingê w walce.
+
+Mo¿e u¿ywaæ:
+Yasraena~
+@70 = ~Kwiat Ognia +5~
+@71 = ~To zaklêty miecz Yasraeny, zwany przez ni¹ Kwiatem Ognia. W trakcie przygotowañ do ucieczki z Podmroku, Divalir wyposa¿y³ j¹ w parê bliŸniaczych ostrzy. Ta klinga jest jednym z nich. Podczas pobytu w Suldanessellar, Divalir wzmocni³ jej ostrze, aby lepiej chroni³o Yasraenê przed zbli¿aj¹cymi siê niebezpieczeñstwami.
+
+Specjalne:
+
+Kwiat Ognia zawsze stanowi³ nieuchronn¹ zgubê nieumar³ych. Teraz zosta³ równie¿ zaklêty, aby raniæ demony. Tak, jak Poca³unek Stali, Kwiat Ognia strze¿e ¿ycia swej w³aœcicielki.
+
+Mo¿e u¿ywaæ:
+Yasraena~
+@72 = ~Gdy <CHARNAME> zosta³ wyniesiony do boskiej potêgi, Yasraena w koñcu mog³a uznaæ swój d³ug za sp³acony. Powróci³a do Suldanessellar by zjednoczyæ siê ze swym wybrankiem, Divalirem. Pobrali siê w mieœcie elfów, jednak¿e mieszkañcy nie potrafili zaakceptowaæ ich zwi¹zku nawet w obliczu wk³adu Yasraeny w ocalenie Drzewa ¯ycia. Para nowo¿eñców opuœci³a miasto niemal natychmiast po œlubie. Ma³¿onkowie przez piêæ lat wêdrowali po Krainach nie mog¹c nigdzie znaleŸæ dla siebie miejsca. Ku rosn¹cemu przygnêbieniu Divalira, wszêdzie, gdzie przybyli, Yasraena spotyka³a siê z niechêci¹, lub pogard¹. Kiedy narodzi³o siê ich pierwsze dziecko, pó³drow, oboje postanowili za wszelk¹ cenê oszczêdziæ mu cierpieñ, jakich doœwiadczy³a jego matka. W nied³ugim czasie opuœcili Faerun, a nastêpnie tak¿e Plan Materialny. Ostatecznie osiedlili siê w Sigil, odnajduj¹c tam upragniony spokój i schronienie do koñca swych dni.~ ~Gdy <CHARNAME> zosta³a wyniesiona do boskiej potêgi, Yasraena w koñcu mog³a uznaæ swój d³ug za sp³acony. Powróci³a do Suldanessellar by zjednoczyæ siê ze swym wybrankiem, Divalirem. Pobrali siê w mieœcie elfów, jednak¿e mieszkañcy nie potrafili zaakceptowaæ ich zwi¹zku nawet w obliczu wk³adu Yasraeny w ocalenie Drzewa ¯ycia. Para nowo¿eñców opuœci³a miasto niemal natychmiast po œlubie. Ma³¿onkowie przez piêæ lat wêdrowali po Krainach nie mog¹c nigdzie znaleŸæ dla siebie miejsca. Ku rosn¹cemu przygnêbieniu Divalira, wszêdzie, gdzie przybyli, Yasraena spotyka³a siê z niechêci¹, lub pogard¹. Kiedy narodzi³o siê ich pierwsze dziecko, pó³drow, oboje postanowili za wszelk¹ cenê oszczêdziæ mu cierpieñ, jakich doœwiadczy³a jego matka. W nied³ugim czasie opuœcili Faerun, a nastêpnie tak¿e Plan Materialny. Ostatecznie osiedlili siê w Sigil, odnajduj¹c tam upragniony spokój i schronienie do koñca swych dni.~
+@73 = ~Kiedy gehenna, któr¹ przeby³ <CHARNAME> by obaliæ nies³awny Tron boga Mordu, dobieg³a koñca, a jego brzemiê zosta³o ostatecznie zdjête, Yasraena uzna³a swój d³ug za sp³acony. Drowka niebawem opuœci³a dru¿ynê, nigdy nie zapominaj¹c o wiêzach przyjaŸni, a nastêpnie powróci³a do Suldanessellar by zjednoczyæ siê ze swym wybrankiem, Divalirem. Pobrali siê w mieœcie elfów, jednak¿e mieszkañcy nie potrafili zaakceptowaæ ich zwi¹zku nawet w obliczu wk³adu Yasraeny w ocalenie Drzewa ¯ycia. Para nowo¿eñców opuœci³a miasto niemal natychmiast po œlubie. Ma³¿onkowie przez piêæ lat wêdrowali po Krainach nie mog¹c nigdzie znaleŸæ dla siebie miejsca. Ku rosn¹cemu przygnêbieniu Divalira, wszêdzie, gdzie przybyli, Yasraena spotyka³a siê z niechêci¹, lub pogard¹. Kiedy narodzi³o siê ich pierwsze dziecko, pó³drow, oboje postanowili za wszelk¹ cenê oszczêdziæ mu cierpieñ, jakich doœwiadczy³a jego matka. W nied³ugim czasie opuœcili Faerun, a nastêpnie tak¿e Plan Materialny. Ostatecznie osiedlili siê w Sigil, odnajduj¹c tam upragniony spokój i schronienie do koñca swych dni.~ ~Gdy gehenna, któr¹ przeby³a <CHARNAME> by obaliæ nies³awny Tron boga Mordu, dobieg³a koñca, a jej brzemiê zosta³o ostatecznie zdjête, Yasraena uzna³a swój d³ug za sp³acony. Drowka niebawem opuœci³a dru¿ynê, nigdy nie zapominaj¹c o wiêzach przyjaŸni, a nastêpnie powróci³a do Suldanessellar by zjednoczyæ siê ze swym wybrankiem, Divalirem. Pobrali siê w mieœcie elfów, jednak¿e mieszkañcy nie potrafili zaakceptowaæ ich zwi¹zku nawet w obliczu wk³adu Yasraeny w ocalenie Drzewa ¯ycia. Para nowo¿eñców opuœci³a miasto niemal natychmiast po œlubie. Ma³¿onkowie przez piêæ lat wêdrowali po Krainach nie mog¹c nigdzie znaleŸæ dla siebie miejsca. Ku rosn¹cemu przygnêbieniu Divalira, wszêdzie, gdzie przybyli, Yasraena spotyka³a siê z niechêci¹, lub pogard¹. Kiedy narodzi³o siê ich pierwsze dziecko, pó³drow, oboje postanowili za wszelk¹ cenê oszczêdziæ mu cierpieñ, jakich doœwiadczy³a jego matka. W nied³ugim czasie opuœcili Faerun, a nastêpnie tak¿e Plan Materialny. Ostatecznie osiedlili siê w Sigil, odnajduj¹c tam upragniony spokój i schronienie do koñca swych dni.~
+@74 = ~Kiedy gehenna, któr¹ przeby³ <CHARNAME> by obaliæ Tron pod³ego boga Mordu, dobieg³a koñca, a jego brzemiê zosta³o ostatecznie zdjête, Yasraena uzna³a swój d³ug za sp³acony. Powróci³a do Suldanessellar by zjednoczyæ siê ze swym wybrankiem, Divalirem. Pobrali siê w mieœcie elfów, a mieszkañcy zmuszeni byli zaakceptowaæ ten zwi¹zek. Nie sk³oni³ ich jednak ku temu wk³ad Yasraeny w ocalenie Drzewa ¯ycia, lecz przychylnoœæ, jak¹ darzy³ parê <CHARNAME>. Yasraena nie czu³a siê nigdy dobrze wœród elfów. Przez piêæ lat ¿y³a z Divalirem w poczuciu uprzejmej tolerancji, nigdy jednak nie doœwiadczy³a pe³nej akceptacji ze strony mieszkañców miasta. Kiedy narodzi³o siê ich pierwsze dziecko, pó³drow, niechêæ elfów sta³a siê jawna, a para zdecydowa³a siê opuœciæ miasto. Ma³¿onkowie przez kilka lat wêdrowali po Krainach nie mog¹c znaleŸæ dla siebie miejsca. Ku rosn¹cemu przygnêbieniu Divalira, wszêdzie, gdzie przybyli Yasraena spotyka³a siê z niechêci¹, lub pogard¹, ustêpuj¹c¹ jedynie wrogoœci wobec ich dziecka. Ostatecznie opuœcili Faerun, a nastêpnie tak¿e Plan Materialny, dziêkuj¹c za ³aski, jakie okaza³ im <CHARNAME>. W nied³ugim czasie osiedlili siê w Sigil, odnajduj¹c tam upragniony spokój i schronienie do koñca swych dni.~ ~Gdy gehenna, któr¹ przeby³a <CHARNAME> by obaliæ Tron pod³ego boga Mordu, dobieg³a koñca, a jej brzemiê zosta³o ostatecznie zdjête, Yasraena uzna³a swój d³ug za sp³acony. Powróci³a do Suldanessellar by zjednoczyæ siê ze swym wybrankiem, Divalirem. Pobrali siê w mieœcie elfów, a mieszkañcy zmuszeni byli zaakceptowaæ ten zwi¹zek. Nie sk³oni³ ich jednak ku temu wk³ad Yasraeny w ocalenie Drzewa ¯ycia, lecz przychylnoœæ, jak¹ darzy³a parê <CHARNAME>. Yasraena nie czu³a siê nigdy dobrze wœród elfów. Przez piêæ lat ¿y³a z Divalirem w poczuciu uprzejmej tolerancji, nigdy jednak nie doœwiadczy³a pe³nej akceptacji ze strony mieszkañców miasta. Kiedy narodzi³o siê ich pierwsze dziecko, pó³drow, niechêæ elfów sta³a siê jawna, a para zdecydowa³a siê opuœciæ miasto. Ma³¿onkowie przez kilka lat wêdrowali po Krainach nie mog¹c znaleŸæ dla siebie miejsca. Ku rosn¹cemu przygnêbieniu Divalira, wszêdzie, gdzie przybyli Yasraena spotyka³a siê z niechêci¹, lub pogard¹, ustêpuj¹c¹ jedynie wrogoœci wobec ich dziecka. Ostatecznie opuœcili Faerun, a nastêpnie tak¿e Plan Materialny, dziêkuj¹c za ³aski, jakie okaza³ im <CHARNAME>. W nied³ugim czasie osiedlili siê w Sigil, odnajduj¹c tam upragniony spokój i schronienie do koñca swych dni.~
+@75 = ~Nie wa¿ siê dotykaæ Kwiatu Ognia! Divalir przeznaczy³ go dla mnie!~
+@76 = ~Nie odejdê bez mojego ostrza.~
+@77 = ~Poca³unek Stali nale¿y tylko do mnie!~
+@78 = ~Nie odbierzesz mi daru Divalira!~

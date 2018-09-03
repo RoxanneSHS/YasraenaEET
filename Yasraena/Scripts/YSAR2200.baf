@@ -1,0 +1,26 @@
+IF
+  InParty("Yasraena")
+  Global("DivalirExists","AR2200",0)
+THEN
+ RESPONSE #100
+  SetGlobal("DivalirExists","AR2200",1)
+  CreateCreature("DIVALIR",[220.1391],11)
+END
+
+IF
+  InParty("Yasraena")
+  GlobalLT("YSDROWSpawned","AR2200",5)
+THEN
+ RESPONSE #100
+  CreateCreature("YSDROW",[2292.1371],7)
+  IncrementGlobal("YSDROWSpawned","AR2200",1)
+END
+
+IF
+  InParty("Yasraena")
+  Global("YSCPTNExists","AR2200",0)
+THEN
+ RESPONSE #100
+  SetGlobal("YSCPTNExists","AR2200",1)
+  CreateCreature("YSCPTN",[2379.1315],7)
+END

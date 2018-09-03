@@ -1,0 +1,563 @@
+IF
+ See(Player1)
+ NumTimesTalkedTo(0)
+THEN
+ RESPONSE #100
+ Dialogue(Player1)
+END
+
+
+
+IF
+ Global("ControlYDivalir","GLOBAL",0)
+ Dead("Divalir1")
+THEN
+ RESPONSE #100
+ SetGlobal("ControlYDivalir","GLOBAL",1)
+ StartDialogueNoSet(Player1)
+END
+
+
+IF
+    !InParty(Myself)
+    Global("YasraenaRepLoss","GLOBAL",1)
+    !ReputationGT(Player1,18)
+THEN
+    RESPONSE #100
+      SetGlobal("YasraenaRepLoss","GLOBAL",0)
+      ReputationInc(2)
+END
+
+IF
+    InParty(Myself)
+    Global("YasraenaJoined","GLOBAL",1)
+    ReputationGT(Player1,10)
+    !Global("YasraenaRepLoss","GLOBAL",1)
+THEN
+    RESPONSE #100
+        ReputationInc(-2)
+        SetGlobal("YasraenaRepLoss","GLOBAL",1)
+        Continue()
+END
+
+
+
+
+IF
+ GlobalLT("DivalirRescued","GLOBAL",1)
+ AreaCheck("AR2100")
+ PartyHasItem("misc9t")
+ Global("YasraenaNotLeaveUnderdark","GLOBAL",0)
+THEN
+ RESPONSE #100
+ SetGlobal("YasraenaNotLeaveUnderdark","GLOBAL",1)
+ StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ Global("PCBetrayedYasraena","GLOBAL",1)
+ Global("YasraenaLeavesOverDivalir","GLOBAL",0)
+THEN
+ RESPONSE #100
+ SetGlobal("YasraenaLeavesOverDivalir","GLOBAL",1)
+ StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ Global("YasraenaRA","GLOBAL",1)
+ Global("ViconiaRomanceActive","GLOBAL",1)
+ GlobalGT("YasraenaTalk","LOCALS",8)
+ Global("YSRomanceConflict","GLOBAL",0)
+THEN
+ RESPONSE #100
+ SetGlobal("YSRomanceConflict","GLOBAL",1)
+ StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ Global("YasraenaRA","GLOBAL",1)
+ Global("AerieRomanceActive","GLOBAL",1)
+ GlobalGT("YasraenaTalk","LOCALS",8)
+ Global("YSRomanceConflict","GLOBAL",0)
+THEN
+ RESPONSE #100
+ SetGlobal("YSRomanceConflict","GLOBAL",1)
+ StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ Global("YasraenaRA","GLOBAL",1)
+ Global("JaheiraRomanceActive","GLOBAL",1)
+ GlobalGT("YasraenaTalk","LOCALS",8)
+ Global("YSRomanceConflict","GLOBAL",0)
+THEN
+ RESPONSE #100
+ SetGlobal("YSRomanceConflict","GLOBAL",1)
+ StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ Global("YasraenaRA","GLOBAL",3)
+ Global("ViconiaRomanceActive","GLOBAL",1)
+ Global("YSRomanceComfort","GLOBAL",0)
+THEN
+ RESPONSE #100
+ SetGlobal("YSRomanceComfort","GLOBAL",1)
+ StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ Global("YasraenaRA","GLOBAL",3)
+ Global("JaheiraRomanceActive","GLOBAL",1)
+ Global("YSRomanceComfort","GLOBAL",0)
+THEN
+ RESPONSE #100
+ SetGlobal("YSRomanceComfort","GLOBAL",1)
+ StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ Global("YasraenaRA","GLOBAL",3)
+ Global("AerieRomanceActive","GLOBAL",1)
+ Global("YSRomanceComfort","GLOBAL",0)
+THEN
+ RESPONSE #100
+ SetGlobal("YSRomanceComfort","GLOBAL",1)
+ StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ InParty(Myself)
+ Global("YasraenaRA","GLOBAL",1)
+ Global("MetDivalir","GLOBAL",1)
+THEN
+ RESPONSE #100
+ SetGlobal("YasraenaRA","GLOBAL",3)
+END
+
+
+
+IF
+  !InParty(Myself)
+  GlobalTimerExpired("YasraenaCountdown","GLOBAL")
+  !GlobalGT("YasraenaRescued","GLOBAL",0)
+THEN
+  RESPONSE #100
+  Kill("YASRAENA")
+END
+
+
+
+IF
+ Global("YasraenaMatch","GLOBAL",0)
+ Global("CheckYasraenaMatch","GLOBAL",0)
+ Gender(Player1,MALE)
+ !Global("AerieRomanceActive","GLOBAL",2)
+ !Global("JaheiraRomanceActive","GLOBAL",2)
+ !Global("TashiaRomanceActive","GLOBAL",2)
+ !Global("imoenromanceactive","GLOBAL",2)
+ !Global("E3FadeRomanceActive","GLOBAL",2)
+ !Global("YasraenaRA","GLOBAL",3)
+ !Global("ViconiaRomanceActive","GLOBAL",2)
+THEN
+ RESPONSE #100
+  SetGlobal("CheckYasraenaMatch","GLOBAL",1)
+  SetGlobal("YasraenaMatch","GLOBAL",1)
+  SetGlobal("YasraenaRA","GLOBAL",1)
+  SetGlobal("YasraenaTalk","LOCALS",1)
+END
+
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("YasraenaTalkTime","GLOBAL")
+  Global("YasraenaRA","GLOBAL",1)
+  Global("YasraenaMatch","GLOBAL",1)
+  !AreaType(DUNGEON)
+  See(Player1)
+  CombatCounter(0)
+OR(13)
+  Global("YasraenaTalk","LOCALS",1)
+  Global("YasraenaTalk","LOCALS",3)
+  Global("YasraenaTalk","LOCALS",5)
+  Global("YasraenaTalk","LOCALS",7)
+  Global("YasraenaTalk","LOCALS",9)
+  Global("YasraenaTalk","LOCALS",11)
+  Global("YasraenaTalk","LOCALS",13)
+  Global("YasraenaTalk","LOCALS",17)
+  Global("YasraenaTalk","LOCALS",19)
+  Global("YasraenaTalk","LOCALS",21)
+  Global("YasraenaTalk","LOCALS",25)
+  Global("YasraenaTalk","LOCALS",27)
+  Global("YasraenaTalk","LOCALS",29)
+THEN
+ RESPONSE #100
+  IncrementGlobal("YasraenaTalk","LOCALS",1)
+  Interact(Player1)
+END
+
+
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("YasraenaTalkTime","GLOBAL")
+  Global("YasraenaRA","GLOBAL",1)
+  Global("YasraenaMatch","GLOBAL",1)
+OR(15)
+  Global("YasraenaTalk","LOCALS",2)
+  Global("YasraenaTalk","LOCALS",4)
+  Global("YasraenaTalk","LOCALS",6)
+  Global("YasraenaTalk","LOCALS",8)
+  Global("YasraenaTalk","LOCALS",10)
+  Global("YasraenaTalk","LOCALS",12)
+  Global("YasraenaTalk","LOCALS",14)
+  Global("YasraenaTalk","LOCALS",16)
+  Global("YasraenaTalk","LOCALS",18)
+  Global("YasraenaTalk","LOCALS",20)
+  Global("YasraenaTalk","LOCALS",22)
+  Global("YasraenaTalk","LOCALS",24)
+  Global("YasraenaTalk","LOCALS",26)
+  Global("YasraenaTalk","LOCALS",28)
+  Global("YasraenaTalk","LOCALS",30)
+THEN
+ RESPONSE #100
+   RealSetGlobalTimer("YasraenaTalkTime","GLOBAL",3400)
+   IncrementGlobal("YasraenaTalk","LOCALS",1)
+END
+
+IF
+ Global("YasraenaGirlMatch","GLOBAL",0)
+ Global("CheckYasraenaGirlMatch","GLOBAL",0)
+ Gender(Player1,FEMALE)
+ Global("YasraenaGF","GLOBAL",0)
+THEN
+ RESPONSE #100
+  SetGlobal("CheckYasraenaGirlMatch","GLOBAL",1)
+  SetGlobal("YasraenaGirlMatch","GLOBAL",1)
+  SetGlobal("YasraenaGF","GLOBAL",1)
+  SetGlobal("YasraenaGirlTalk","LOCALS",1)
+END
+
+
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("YasraenaGirlTalkTime","GLOBAL")
+  Global("YasraenaGF","GLOBAL",1)
+  Global("YasraenaGirlMatch","GLOBAL",1)
+  !AreaType(DUNGEON)
+  See(Player1)
+  CombatCounter(0)
+OR(6)
+  Global("YasraenaGirlTalk","LOCALS",1)
+  Global("YasraenaGirlTalk","LOCALS",3)
+  Global("YasraenaGirlTalk","LOCALS",5)
+  Global("YasraenaGirlTalk","LOCALS",7)
+  Global("YasraenaGirlTalk","LOCALS",9)
+  Global("YasraenaGirlTalk","LOCALS",11)
+THEN
+ RESPONSE #100
+  IncrementGlobal("YasraenaGirlTalk","LOCALS",1)
+  Interact(Player1)
+END
+
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("YasraenaGirlTalkTime","GLOBAL")
+  Global("YasraenaGF","GLOBAL",1)
+  Global("YasraenaGirlMatch","GLOBAL",1)
+OR(6)
+  Global("YasraenaGirlTalk","LOCALS",2)
+  Global("YasraenaGirlTalk","LOCALS",4)
+  Global("YasraenaGirlTalk","LOCALS",6)
+  Global("YasraenaGirlTalk","LOCALS",8)
+  Global("YasraenaGirlTalk","LOCALS",10)
+  Global("YasraenaGirlTalk","LOCALS",12)
+THEN
+ RESPONSE #100
+   RealSetGlobalTimer("YasraenaGirlTalkTime","GLOBAL",3400)
+   IncrementGlobal("YasraenaGirlTalk","LOCALS",1)
+END
+
+
+
+
+IF
+Global("YasraenaRA","GLOBAL",1)
+OR (6)
+Global("E3FadeRomanceActive","GLOBAL",2)
+Global("imoenromanceactive","GLOBAL",2)
+Global("JaheiraRomanceActive","GLOBAL",2)
+Global("AerieRomanceActive","GLOBAL",2)
+Global("ViconiaRomanceActive","GLOBAL",2)
+Global("TashiaRomanceActive","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("YasraenaRA","GLOBAL",3)
+END
+
+
+
+IF
+ InParty(Myself)
+ AreaCheck("AR1515")
+ Global("YasraenaSpellhold","GLOBAL",0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("YasraenaSpellhold","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ InParty(Myself)
+ AreaCheck("AR0700")
+ Global("CutScene01","AR0700",5)
+ Global("YasraenaImmyTaken","GLOBAL",0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("YasraenaImmyTaken","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ InParty(Myself)
+ AreaCheck("AR2100")
+ Global("YasraenaUnderdark","GLOBAL",0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("YasraenaUnderdark","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ InParty(Myself)
+ AreaCheck("AR0711")
+ Global("YasraenaIllithidLair","GLOBAL",0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("YasraenaIllithidLair","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+Global("SolaufeinJob","GLOBAL",6)
+AreaCheck("AR2100")
+Global("YasraenaSvirfObjection","GLOBAL",0)
+THEN
+ RESPONSE #100
+SetGlobal("YasraenaSvirfObjection","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+Global("PhaereJob","GLOBAL",11)
+Global("YasraenaLeavesOverPhaere","GLOBAL",0)
+!PartyHasItem("misc9t")
+!Dead("Phaere")
+THEN
+ RESPONSE #100
+SetGlobal("YasraenaLeavesOverPhaere","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+Dead("UDSVIR08")
+Global("YasraenaLeavesOverSvirf","GLOBAL",0)
+THEN
+ RESPONSE #100
+SetGlobal("YasraenaLeavesOverSvirf","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ InParty(Myself)
+ AreaCheck("AR2800")
+ Global("TalkedToElhan","AR2800",2)
+ Global("YasraenaSuldan","GLOBAL",0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("YasraenaSuldan","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+
+
+IF
+ InParty(Myself)
+ AreaCheck("AR2200")
+ Global("YasraenaUstNathaClue","GLOBAL",0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("YasraenaUstNathaClue","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+
+
+
+
+IF
+   !HasItem("FIREFLOW",Myself)
+   OR(6)
+      HasItem("FIREFLOW",Player1)
+      HasItem("FIREFLOW",Player2)
+      HasItem("FIREFLOW",Player3)
+      HasItem("FIREFLOW",Player4)
+      HasItem("FIREFLOW",Player5)
+      HasItem("FIREFLOW",Player6)
+THEN
+   RESPONSE #100
+     ActionOverride(Player1,GiveItem("FIREFLOW","Yasraena"))
+     ActionOverride(Player2,GiveItem("FIREFLOW","Yasraena"))
+     ActionOverride(Player3,GiveItem("FIREFLOW","Yasraena"))
+     ActionOverride(Player4,GiveItem("FIREFLOW","Yasraena"))
+     ActionOverride(Player5,GiveItem("FIREFLOW","Yasraena"))
+     ActionOverride(Player6,GiveItem("FIREFLOW","Yasraena"))
+     DisplayStringHead(Myself,99990)
+END
+
+
+
+IF
+   !HasItem("IRONKISS",Myself)
+   OR(6)
+      HasItem("IRONKISS",Player1)
+      HasItem("IRONKISS",Player2)
+      HasItem("IRONKISS",Player3)
+      HasItem("IRONKISS",Player4)
+      HasItem("IRONKISS",Player5)
+      HasItem("IRONKISS",Player6)
+THEN
+   RESPONSE #100
+     ActionOverride(Player1,GiveItem("IRONKISS","Yasraena"))
+     ActionOverride(Player2,GiveItem("IRONKISS","Yasraena"))
+     ActionOverride(Player3,GiveItem("IRONKISS","Yasraena"))
+     ActionOverride(Player4,GiveItem("IRONKISS","Yasraena"))
+     ActionOverride(Player5,GiveItem("IRONKISS","Yasraena"))
+     ActionOverride(Player6,GiveItem("IRONKISS","Yasraena"))
+     DisplayStringHead(Myself,99992)
+END
+
+
+
+IF
+   !HasItem("IRONKISS",Myself)
+THEN
+   RESPONSE #100
+ GiveItemCreate("IRONKISS","YASRAENA",0,0,0)
+END
+
+
+IF
+   !HasItem("FIREFLOW",Myself)
+THEN
+   RESPONSE #100
+ GiveItemCreate("FIREFLOW","YASRAENA",0,0,0)
+END
+
+
+
+
+IF
+   NumItemsGT("FIREFLOW","Yasraena",1)
+THEN
+   RESPONSE #100
+      DestroyItem("FIREFLOW")
+END
+
+
+
+IF
+   NumItemsGT("IRONKISS","Yasraena",1)
+THEN
+   RESPONSE #100
+      DestroyItem("IRONKISS")
+END
+
+
+
+
+IF
+    AreaCheck("AR2401")
+    Global("YasraenaTeleport","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("YasraenaTeleport","GLOBAL",1)
+    StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("YasraenaTeleport","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("YasraenaTeleport","GLOBAL",3)
+    EscapeAreaMove("AR2500",2995,176,0)
+    LeaveParty()
+END
+
+IF
+    Global("YasraenaTeleport","GLOBAL",3)
+    OR(14)
+    HasItem("DWBLUN01",Myself)
+    HasItem("DWBOLT01",Myself)
+    HasItem("DWBOLT02",Myself)
+    HasItem("DWBOLT03",Myself)
+    HasItem("DWCHAN01",Myself)
+    HasItem("DWCHAN02",Myself)
+    HasItem("DWCLCK01",Myself)
+    HasItem("DWHALB01",Myself)
+    HasItem("DWPLAT01",Myself)
+    HasItem("DWSHLD01",Myself)
+    HasItem("DWSPER01",Myself)
+    HasItem("DWSW1H01",Myself)
+    HasItem("DWSW1H02",Myself)
+    HasItem("DWXBOW01",Myself)
+THEN
+  RESPONSE #100
+    DestroyItem("DWBLUN01")
+    DestroyItem("DWBOLT01")
+    DestroyItem("DWBOLT02")
+    DestroyItem("DWBOLT03")
+    DestroyItem("DWCHAN01")
+    DestroyItem("DWCHAN02")
+    DestroyItem("DWCLCK01")
+    DestroyItem("DWHALB01")
+    DestroyItem("DWPLAT01")
+    DestroyItem("DWSHLD01")
+    DestroyItem("DWSPER01")
+    DestroyItem("DWSW1H01")
+    DestroyItem("DWSW1H02")
+    DestroyItem("DWXBOW01")
+    GiveItemCreate("DWDUST","YASRAENA",0,0,0)
+END

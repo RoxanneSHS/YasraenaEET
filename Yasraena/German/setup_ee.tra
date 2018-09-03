@@ -1,0 +1,71 @@
+@65 = ~Eisenkuss
+
+Dies ist Yasraenas magisches Kurzschwert, welches sie Eisenkuss nennt. In Vorbereitung ihrer Flucht aus dem Unterreich stattete Divalir Yasraena mit speziell für sie angefertigten Kurzschwertern aus. Dies ist eines von ihnen. Von Eisenkuss geschlagene Wunden sind tief und hören auch lange nach einem Treffer nicht auf zu bluten.
+
+EIGENSCHAFTEN:
+
+Ein getroffener Gegner erleidet fünf Runden lang 3 SP je Runde.
+
+Schaden: 1W6 +2
+ETW0-Bonus: -2
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+~
+
+@67 = ~Feuerblüte
+
+Dies ist Yasraenas magisches Kurzschwert, welches sie Feuerblüte nennt. In Vorbereitung ihrer Flucht aus dem Unterreich stattete Divalir Yasraena mit speziell für sie angefertigten Kurzschwertern aus. Dies ist eines von ihnen. Die wahre Kraft von Feuerblüte liegt darin, feuerempfindlichen Kreaturen wie regenerierenden Monstern, Eisgeschöpfen und Untoten größeren Schaden zuzufügen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1
+(+2 gegen regenerierende Wesen)
+(+3 gegen Eisgeschöpfe)
+(+4 gegen Untote)
+ETW0-Bonus: -1
+(-2 gegen regenerierende Wesen)
+(-3 gegen Eisgeschöpfe)
+(-4 gegen Untote)
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+~
+
+@69 = ~Eisenkuss
+
+Dies ist Yasraenas magisches Kurzschwert, welches sie Eisenkuss nennt. In Vorbereitung ihrer Flucht aus dem Unterreich stattete Divalir Yasraena mit speziell für sie angefertigten Kurzschwertern aus. Dies ist eines von ihnen. Während Yasraenas Aufenthalt in Suldanessalar verbesserte Divalir das Schwert, damit sie den vor ihr liegenden Herausforderungen besser gewappnet begegnen kann. Eisenkuss ist nun wesentlich tödlicher und schützt Yasraenas Leben gleichzeitig effektiver. Divalirs mächtige Verzauberungen regenerieren stetig ihre Lebensenergie, solange sie mit diesem Schwert ausgerüstet ist.
+
+EIGENSCHAFTEN:
+
+Es besteht eine Chance von 10%, dass ein getroffener Gegner sofort getötet wird.
+
+Schaden: 1W6 +5
+ETW0-Bonus: -5
+RK-Bonus: -1
+Konstitutions-Bonus: +1
+Regeneration: 1 TP in 2 Sek.
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+~
+
+@71 = ~Feuerblüte
+
+Dies ist Yasraenas magisches Kurzschwert, welches sie Feuerblüte nennt. In Vorbereitung ihrer Flucht aus dem Unterreich stattete Divalir Yasraena mit speziell für sie angefertigten Kurzschwertern aus. Dies ist eines von ihnen. Während Yasraenas Aufenthalt in Suldanessalar verbesserte Divalir das Schwert, damit sie den vor ihr liegenden Herausforderungen besser gewappnet begegnen kann. Feuerblüte strebt nach der Vernichtung von Untoten, ist ob seiner Verzauberung jedoch auch effektiv gegen Dämonen. Wie Eisenkuss beschützt auch Feuerblüte Yasraenas Leben.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +5
+(+6 gegen Untote/Dämonen)
+ETW0-Bonus: -5
+(-6 gegen Untote/Dämonen)
+Rettungswürfe: +1
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+~

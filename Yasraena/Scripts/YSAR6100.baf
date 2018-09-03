@@ -1,0 +1,20 @@
+IF
+  !InParty("Yasraena")
+  Global("AvengingDivalir","GLOBAL",1)
+  Global("Divalir1Exists","AR6100",0)
+THEN
+ RESPONSE #100
+  SetGlobal("Divalir1Exists","AR6100",1)
+  CreateCreature("DIVALIR1",[1701.828],11)
+END
+
+
+IF
+  !InParty("Yasraena")
+  Global("AvengingDivalir","GLOBAL",1)
+  GlobalLT("YSDivElfSpawned","AR6100",5)
+THEN
+ RESPONSE #100
+  CreateCreature("YSDIVELF",[1749.934],11)
+  IncrementGlobal("YSDIVELFSpawned","AR6100",1)
+END

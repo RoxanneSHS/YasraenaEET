@@ -1,0 +1,103 @@
+@0  = ~Yasraena (BG2:SoA & TOB NPC) creado por nethrin & Sillara de Tamari.~ 
+@1  = ~Yasraena.~
+@2  = ~¿Sois amigo o enemigo?.~ [YASRA001] ~¿Sois amiga o enemiga?.~ [YASRA001] 
+@3  = ~¡Debo escapar!.~ [YASRA002]
+@4  = ~Estoy agradecida de estar con vuestra compañía.~ [YASRA003] 
+@5  = ~No dejéis que la oscuridad se arrastre hacia vuestro corazón.~ [YASRA004]
+@6  = ~¿Huí de la Infraoscuridad sólo para encontraros?.~ [YASRA005]
+@7  = ~¡Sinvergüenza! Me habéis mostrado que la superficie no es mejor que el reino de los drow.~ [YASRA006] 
+@8  = ~Si esta es vuestra voluntad, entonces lideraré con honor.~ [YASRA007]
+@9  = ~Estoy cansada.~ [YASRA008] 
+@10 = ~No deberíamos permanecer así expuestos. Mi pasado puede estar persiguiéndome.~ [YASRA009]
+@11 = ~¡Por Divalir!.~ [YASRA010]
+@12 = ~¡Sentid el mordisco del Beso Férreo!.~ [YASRA011] 
+@13 = ~¡La ira de Flor Ígnea os consumirá!.~ [YASRA012]
+@14 = ~¡Mis hojas danzan antes que yo!.~ [YASRA013] 
+@15 = ~¡Ssussun pholor dos!.~ [YASRA014]
+@16 = ~¡Uh!.~ [YASRA015]
+@17 = ~Entonces pasa Yasraena.~ [YASRA016]
+@18 = ~¡Defendedme!.~ [YASRA017] 
+@19 = ~Nos enseñan que en los bosques los elfos de la superficie planean nuestra caída.~ [YASRA018]
+@20 = ~Este lugar no es nada comparado con Menzoberranzan. Todo es extraño para mí.~ [YASRA019] 
+@21 = ~Mis ojos ven claramente aquí.~ [YASRA020] 
+@22 = ~¿Debemos caminar en la luz?.~ [YASRA021]
+@23 = ~Aunque la oscuridad cubra la tierra, la luna y las estrellas todavía brillan sobre nosotros. Comienzo a entender la fascinación élfica sobre los cuerpos celestes.~ [YASRA022] 
+@24 = ~¿Por qué me llamasteis?.~ [YASRA023]
+@25 = ~¿Me necesitáis?.~ [YASRA024]
+@26 = ~¿Sí?.~ [YASRA025]
+@27 = ~Hay mucho que yo pueda hacer.~ [YASRA026]
+@28 = ~Khaless nau uss mzild taga dosstan.~ [YASRA027]
+@29 = ~¿Qué es esto?.~ [YASRA028]
+@30 = ~Voy.~ [YASRA029]
+@31 = ~¿Esta es la mejor dirección?.~ [YASRA030]
+@32 = ~Xun izil dos phuul quarthen, lueth dro.~ [YASRA031]
+@33 = ~No temo a nada.~ [YASRA032]
+@34 = ~Rápidamente.~ [YASRA033]
+@35 = ~Trabajo bien aquí.~ [YASRA034]
+@36 = ~Sin preguntas.~ [YASRA035]
+@37 = ~Los drow no olvidan. Si soy encontrada, esa será mi última hora.~ [YASRA036]
+@38 = ~Tanto tiempo sobre la superficie, y todavía vuestros caminos me sorprenden.~ [YASRA037]
+@39 = ~¡Mis hojas cortan profundo!.~ [YASRA038]
+@40 = ~¡Oloth plynn dos!.~ [YASRA039]
+@41 = ~¡Mis hojas os tendrán a tiempo!.~ [YASRA040]
+@42 = ~Nosotras las mujeres somos extrañas, sí, pero no seré una carga.~ [YASRA041]
+@43 = ~¡Ssussan!.~ [YASRA042]
+@44 = ~Los idiotas e inútiles encuentran sorpresas.~ [YASRA043]
+@45 = ~La oscuridad es tanto amiga como enemiga.~ [YASRA044]
+@46 = ~¡No soy una carterista!.~ [YASRA045]
+@47 = ~Cuando se le pregunta por su pasado, YASRAENA os cuenta que fue afortunada al escapar de la oscuridad de la ciudad drow de Menzoberranzan, pero nunca os cuenta la historia de su fuga sin glorificar el sacrificio de su maestro, Divalir.~
+@48 = ~Divalir.~
+@49 = ~Guardia.~
+@50 = ~Tsabrak.~
+@51 = ~Kinalluth.~
+@52 = ~Guardia de Kinalluth.~
+@53 = ~Nethrin.~
+@54 = ~Matriarca Arkhenneld.~
+@55 = ~Drow Arkhenneld.~
+@56 = ~Guardia de Divalir.~
+@57 = ~Gran Yochlol.~
+@58 = ~Varita de Tsabrak.~
+@59 = ~Divalir necesita esto para quedar libre de su prisión.~
+@60 = ~Anillo de Divalir.~
+@61 = ~Este anillo brilla mientras Divalir viva.~
+@62 = ~Collar de Yasraena.~
+@63 = ~Este collar es de oro tallado con gran delicadeza, puesto con el rubí más grande, más perfecto que hayáis visto alguna vez. Yasraena nunca se lo quita, y, a pesar de su carencia de cualidades mágicas, ella parece tan atada al anillo como a sus espadas.~
+@64 = ~Beso Férreo.~
+@65 = ~Esta es la espada corta encantada de Yasraena que llama Beso Férreo. Preparando la fuga de Yasraena de la Infraoscuridad, Divalir la armó con un par de espadas cortas. Esta es uno de ellas.
+
+Estadísticas:
+El mordisco de Beso Férreo es profundo y continúa sangrando más allá de la herida inicial que recibió. Posee un encantamiento de +2.
+
+Permitido a:
+Yasraena~
+@66 = ~Flor Ígnea.~
+@67 = ~Esta es la espada corta encantada de Yasraena que llama Flor Ígnea. Preparando la fuga de Yasraena de la Infraoscuridad, Divalir la armó con un par de espadas cortas. Esta es uno de ellas.
+
+Estadísticas:
+El verdadero poder de Flor Ígnea reside en su habilidad para causar un gran daño a las criaturas susceptibles al fuego, como los monstruos con regeneración, criaturas basadas en el frío, o muertos vivientes. Posee un encantamiento de +1 contra enemigos normales.
+
+Permitido a:
+Yasraena~
+@68 = ~Beso Férreo +5.~
+@69 = ~Esta es la espada corta encantada de Yasraena que llama Beso Férreo. Preparando la fuga de Yasraena de la Infraoscuridad, Divalir la armó con un par de espadas cortas. Esta es uno de ellas. Mientras Yasraena estuvo en Suldanessellar, Divalir mejoró a Beso Férreo para mejorar su equipo para los retos futuros.
+
+Estadísticas:
+Beso Férreo se ha vuelto mucho más mortal mientras defiende simultáneamente su vida con más eficacia. Los fuertes encantamientos de Divalir renuevan continuamente renuevan la vida de Yasraena mientras blanda esta hoja.
+
+Permitido a:
+Yasraena~
+@70 = ~Flor Ígnea +5.~
+@71 = ~Esta es la espada corta encantada de Yasraena que llama Flor Ígnea. Preparando la fuga de Yasraena de la Infraoscuridad, Divalir la armó con un par de espadas cortas. Esta es uno de ellas. Mientras Yasraena estuvo en Suldanessellar, Divalir mejoró a Flor Ígnea para mejorar su equipo para los retos futuros.
+
+Estadísticas:
+Flor Ígnea continúa con su búsqueda de la destrucción de muertos vivientes, pero además ha sido incrementada para dañar severamente a los demonios.  Como Beso Férreo, Flor Ígnea protege la vida de Yasraena.
+
+Permitido a:
+Yasraena~
+@72 = ~Tras el ascenso a la divinidad de <CHARNAME>, Yasraena por fin pudo saldar su deuda. Ella volvió a Suldanessellar para estar reunida con su amor Divalir. Permanecieron en Suldanessellar, pero la ciudad élfica no aceptaba a la drow, incluso tras su participación en la salvación del Árbol de la Vida. La pareja dejó la ciudad inmediatamente después de su vinculación. Durante cinco años vagaron por los Reinos. Yasraena era rechazada en todas partes, y Divalir se volvió resentido por ella. Con el nacimiento de su primer hijo, un semidrow cuyo rechazo fue más completo que el de su madre, dejaron Faerun y el Plano Material Primario. Moraron en Sigil, contentos al fin, para el resto de sus días.~
+@73 = ~Luego de que la búsqueda de <CHARNAME> en el Trono de Bhaal terminara, y <CHARNAME> fuera liberado de su marca, Yasraena al fin pudo pagar su deuda. Se alejó de <CHARNAME>, aunque continuó siendo su leal amiga, y Yasraena regresó a Suldanessellar para reunirse nuevamente con su amado Divalir. Se casaron en Suldanessellar, pero la ciudad élfica no aceptaba a los drow, a pesar de su participación en el rescate del Árbol de la Vida. La pareja dejó la ciudad casi inmediatamente luego de su unión. Durante cinco años viajaron por los Reinos. Yasraena era rechazada donde quiera que fuera y Divalir estaba amargado. Con el nacimiento de su primer hijo, un medio drow, cuyo rechazo sería peor que el de su madre, abandonaron el Plano Primario. Vivieron felices en Sigil hasta el final de sus días.~ ~Luego de que la búsqueda de <CHARNAME> en el Trono de Bhaal terminara, y <CHARNAME> fuera liberada de su marca, Yasraena al fin pudo pagar su deuda. Se alejó de <CHARNAME>, aunque continuó siendo su leal amiga, y Yasraena regresó a Suldanessellar para reunirse nuevamente con su amado Divalir. Se casaron en Suldanessellar, pero la ciudad élfica no aceptaba a los drow, a pesar de su participación en el rescate del Árbol de la Vida. La pareja dejó la ciudad casi inmediatamente luego de su unión. Durante cinco años viajaron por los Reinos. Yasraena era rechazada donde quiera que fuera y Divalir estaba amargado. Con el nacimiento de su primer hijo, un medio drow, cuyo rechazo sería peor que el de su madre, abandonaron el Plano Primario. Vivieron felices en Sigil hasta el final de sus días.~
+@74 = ~Luego de que la búsqueda de <CHARNAME> en el Trono de Bhaal terminara, y <CHARNAME> fuera liberado de su marca, Yasraena al fin pudo pagar su deuda, y regresó a Suldanessellar para reunirse nuevamente con su amado Divalir. Se casaron en Suldanessellar, y la ciudad permitió a la drow vivir allí, no por la participación en el rescate del Árbol de la Vida, si no por disposición de <CHARNAME>. Aunque Yasraena vivía allí, los elfos no terminaron nunca de tolerarla. <CHARNAME> forzó a los elfos para que la trataran como una de los suyos. Durante cinco años Yasraena y Divalir vivieron en Suldanessellar, tolerados pero nunca aceptados. Pero en el nacimiento de su primer hijo, los elfos la rechazaron definitivamente, viéndose obligada a deambular por los Reinos. Yasraena era rechazada donde quiera que fuera y Divalir estaba amargado, también por su hijo, que siendo medio drow sufría más rechazo aún que su madre. Al final se despidieron de <CHARNAME>, y abandonaron Faerun y el Plano Primario. Yasraena y Divalir vivieron felices en Sigil hasta el final de sus días.~ ~Luego de que la búsqueda de <CHARNAME> en el Trono de Bhaal terminara, y <CHARNAME> fuera liberada de su marca, Yasraena al fin pudo pagar su deuda, y regresó a Suldanessellar para reunirse nuevamente con su amado Divalir. Se casaron en Suldanessellar, y la ciudad permitió a la drow vivir allí, no por la participación en el rescate del Árbol de la Vida, si no por disposición de <CHARNAME>. Aunque Yasraena vivía allí, los elfos no terminaron nunca de tolerarla. <CHARNAME> forzó a los elfos para que la trataran como una de los suyos. Durante cinco años Yasraena y Divalir vivieron en Suldanessellar, tolerados pero nunca aceptados. Pero en el nacimiento de su primer hijo, los elfos la rechazaron definitivamente, viéndose obligada a deambular por los Reinos. Yasraena era rechazada donde quiera que fuera y Divalir estaba amargado, también por su hijo, que siendo medio drow sufría más rechazo aún que su madre. Al final se despidieron de <CHARNAME>, y abandonaron Faerun y el Plano Primario. Yasraena y Divalir vivieron felices en Sigil hasta el final de sus días.~
+@75 = ~¡Nunca tocareis Flor Ígnea otra vez! ¡Divalir me la dio a MÍ!.~
+@76 = ~¡Me niego a irme sin Flor Ígnea!.~
+@77 = ~¡Beso Férreo es sólo MÍA!.~
+@78 = ~¡No dejaré este regalo de Divalir atrás!.~

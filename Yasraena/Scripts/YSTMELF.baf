@@ -1,0 +1,70 @@
+IF
+ !InParty("Yasraena")
+ GlobalGT("YSTMELFSpawned","GLOBAL",0)
+ Global("YSSpokenWithTMElves","GLOBAL",0)
+THEN
+ RESPONSE #100
+ DestroySelf()
+END
+
+IF
+ Global("PCSlaughteredKinalluth","GLOBAL",1)
+ Global("YSGuardsAttack","LOCALS",0)
+THEN
+ RESPONSE #100
+ SetGlobal("YSGuardsAttack","LOCALS",1)
+ Enemy()
+END
+
+
+IF
+  Global("YasraenaArrested","GLOBAL",1)
+  Global("YSGuardsGoFiveFlagons","LOCALS",0)
+THEN
+  RESPONSE #100
+  EscapeAreaMove("AR0511",710,509,4)
+  SetGlobal("YSGuardsGoFiveFlagons","LOCALS",1)
+END
+
+
+
+IF
+  Global("YasraenaExecuted","GLOBAL",1)
+  Global("YSTMGuardsLeave","LOCALS",0)
+THEN
+  RESPONSE #100
+  EscapeArea()
+  SetGlobal("YSTMGuardsLeave","LOCALS",1)
+END
+
+
+
+IF
+ GlobalGT("YasraenaRescued","GLOBAL",0)
+ Global("YSGuardsGoHome","LOCALS",0)
+THEN
+ RESPONSE #100
+ EscapeArea()
+ SetGlobal("YSGuardsGoHome","LOCALS",1)
+END
+
+
+IF
+  GlobalTimerExpired("YasraenaCountdown","GLOBAL")
+  !GlobalGT("YasraenaRescued","GLOBAL",0)
+THEN
+  RESPONSE #100
+  DestroySelf()
+END
+
+
+IF
+  Dead("YASRAENA")
+  Global("YSTMElfLeaves","LOCALS",0)
+THEN
+  RESPONSE #100
+  EscapeArea()
+  SetGlobal("YSTMElfLeaves","LOCALS",1)
+END
+
+

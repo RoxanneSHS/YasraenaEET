@@ -1,0 +1,10 @@
+IF
+ See("Yasraena")
+ Global("YasraenaFindsDivalir","GLOBAL",0)
+ Global("SeeYasraena","GLOBAL",0)
+ CombatCounter(0)
+THEN
+RESPONSE #100
+ SetGlobal("SeeYasraena","GLOBAL",1)
+ StartDialogNoSet("Yasraena")
+END

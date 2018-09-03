@@ -1,0 +1,63 @@
+IF
+ See(Player1)
+ NumTimesTalkedTo(0)
+THEN
+ RESPONSE #100
+ Dialogue(Player1)
+END
+
+
+
+
+IF
+Global("YasraenaArrested","GLOBAL",1)
+Global("YSTMCPTNGoesFiveFlagons","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("YSTMCPTNGoesFiveFlagons","LOCALS",1)
+SetGlobalTimer("YasraenaCountdown","GLOBAL",THREE_DAYS)
+EscapeAreaMove("AR0511",720,567,14)
+END
+
+
+/*IF
+  Global("YasraenaArrested","GLOBAL",1)
+  Global("YSTMCPTNGoesFiveFlagons","LOCALS",0)
+THEN
+  RESPONSE #100
+  EscapeAreaMove("AR0511",720,567,4)
+  SetGlobal("YSTMCPTNGoesFiveFlagons","LOCALS",1)
+  SetGlobalTimer("YasraenaCountdown","GLOBAL",THREE_DAYS)
+END
+*/
+
+
+IF
+  GlobalTimerExpired("YasraenaCountdown","GLOBAL")
+  !GlobalGT("YasraenaRescued","GLOBAL",0)
+THEN
+  RESPONSE #100
+  DestroySelf()
+END
+
+
+
+IF
+  Dead("YASRAENA")
+  Global("YSTMCPTNLeaves","LOCALS",0)
+THEN
+  RESPONSE #100
+  ReallyForceSpell("YSTMCPTN",DRYAD_TELEPORT)
+  SetGlobal("YSTMCPTNLeaves","LOCALS",1)
+END
+
+
+
+IF
+ !InParty("Yasraena")
+ Global("YSTMCPTNExists","GLOBAL",1)
+ Global("YSSpokenWithTMElves","GLOBAL",0)
+THEN
+ RESPONSE #100
+ DestroySelf()
+END

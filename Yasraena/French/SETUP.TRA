@@ -1,0 +1,103 @@
+@0  = ~Yasraena (BG2:SoA & TOB NPC) creee par nethrin & Sillara of the Tamari~
+@1  = ~Yasraena~
+@2  = ~Êtes-vous un ami ou un ennemi ?~ [YASRA001]
+@3  = ~Je dois fuir !~ [YASRA002]
+@4  = ~Je suis heureuse d'être en votre compagnie.~ [YASRA003]
+@5  = ~Ne laisse pas les ténèbres s'immiscer dans ton coeur.~ [YASRA004]
+@6  = ~N'ai-je donc fui l'Ombre-Terre que pour tomber sur toi ?~ [YASRA005]
+@7  = ~Vaurien ! Tu m'as montré que la surface ne valait pas mieux que le monde des drow.~ [YASRA006]
+@8  = ~Si telle est ta volonté, alors je commanderai avec honneur.~ [YASRA007]
+@9  = ~Je suis fatiguée.~ [YASRA008]
+@10 = ~Nous ne devrions pas rester ainsi exposés. Il se peut que mon passé me poursuive encore.~ [YASRA009]
+@11 = ~Pour Divalir !~ [YASRA010]
+@12 = ~Sens la morsure d'Ironkiss !~ [YASRA011]
+@13 = ~La colère de Fireflower te dévorera !~ [YASRA012]
+@14 = ~Mes lames dansent devant moi !~ [YASRA013]
+@15 = ~Ssussun pholor dos !~ [YASRA014]
+@16 = ~Uh !~ [YASRA015]
+@17 = ~Ainsi meurt Yasraena.~ [YASRA016]
+@18 = ~Défends-moi !~ [YASRA017]
+@19 = ~On nous enseigne que dans la forêt les elfes de la surface conspirent à notre perte.~ [YASRA018]
+@20 = ~Cet endroit n'a rien à voir avec Menzoberranzan. Tout me paraît étrange.~ [YASRA019]
+@21 = ~Mes yeux voient clairement ici.~ [YASRA020]
+@22 = ~Faut-il que nous marchions dans la lumière ?~ [YASRA021]
+@23 = ~Bien que les ténèbres recouvrent la terre, la lune et les étoiles nous éclairent encore. Je commence à comprendre la fascination des elfes pour les corps célestes.~ [YASRA022]
+@24 = ~Pourquoi m'as-tu appelée ?~ [YASRA023]
+@25 = ~As-tu besoin de moi ?~ [YASRA024]
+@26 = ~Oui ?~ [YASRA025]
+@27 = ~Je peux accomplir beaucoup de choses.~ [YASRA026]
+@28 = ~Khaless nau uss mzild taga dosstan.~ [YASRA027]
+@29 = ~Qu'y a-t-il ?~ [YASRA028]
+@30 = ~J'y vais.~ [YASRA029]
+@31 = ~Est-ce le meilleur chemin ?~ [YASRA030]
+@32 = ~Xun izil dos phuul quarthen, lueth dro.~ [YASRA031]
+@33 = ~Je n'ai peur de rien.~ [YASRA032]
+@34 = ~Rapidement.~ [YASRA033]
+@35 = ~Je me sens bien ici.~ [YASRA034]
+@36 = ~Certainement.~ [YASRA035]
+@37 = ~Les drow ne pardonnent pas. Si je suis retrouvée, ce seront mes derniers instants.~ [YASRA036]
+@38 = ~Cela fait longtemps que je suis à la surface, mais vos manières arrivent toujours à me surprendre.~ [YASRA037]
+@39 = ~Mes lames coupent profondément !~ [YASRA038]
+@40 = ~Oloth plynn dos !~ [YASRA039]
+@41 = ~Tu succomberas bientôt à mes lames !~ [YASRA040]
+@42 = ~Nous autres femelles sommes plus fortes, certes, mais je ne peux pas en supporter davantage.~ [YASRA041]
+@43 = ~Ssussan !~ [YASRA042]
+@44 = ~Le fou et l'imprudent s'exposent à des surprises.~ [YASRA043]
+@45 = ~L'obscurité est à la fois une amie et une ennemie.~ [YASRA044]
+@46 = ~Je ne suis pas une voleuse !~ [YASRA045]
+@47 = ~Quand vous l'interrogez sur son passé, YASRAENA vous dit qu'elle a été chanceuse d'échapper aux ténèbres de la cité drow Menzoberranzan, mais elle ne raconte jamais l'histoire de sa fuite sans honorer le sacrifice de son maître, Divalir.~
+@48 = ~Divalir~
+@49 = ~Garde~
+@50 = ~Tsabrak~
+@51 = ~Kinalluth~
+@52 = ~Garde de Kinalluth~
+@53 = ~Nethrin~
+@54 = ~Matrone Arkhenneld~
+@55 = ~Drow d'Arkhenneld~
+@56 = ~Garde de Divalir~
+@57 = ~Yochlol Supérieur~
+@58 = ~Baguette de Tsabrak~
+@59 = ~Divalir en a besoin pour se libérer de sa prison.~
+@60 = ~Anneau de Divalir~
+@61 = ~Cet anneau brillera aussi longtemps que Divalir vit.~
+@62 = ~Collier de Yasraena~
+@63 = ~Ce collier est fait d'un or délicatement taillé, serti du plus large et du plus parfait rubis que vous ayez jamais vu. Yasraena ne l'enlève jamais et, malgré son absence de qualités magiques, elle y semble aussi attachée qu'elle l'est à ses épées.~
+@64 = ~Ironkiss~
+@65 = ~Ceci est l'épée courte enchantée que Yasraena appelle Ironkiss. En vue de la fuite de Yasraena de l'Ombre-Terre, Divalir l'a armée d'une paire d'épées courtes assorties. Il s'agit de l'une d'entre elles.
+
+Paramètres :
+La morsure d'Ironkiss est profonde et continue à saigner longtemps après la blessure initiale. C'est une arme +2.
+
+Utilisable par :
+Yasraena~
+@66 = ~Fireflower~
+@67 = ~Ceci est l'épée courte enchantée que Yasraena appelle Fireflower. En vue de la fuite de Yasraena de l'Ombre-Terre, Divalir l'a armée d'une paire d'épées courtes assorties. Il s'agit de l'une d'entre elles.
+
+Paramètres :
+Le vrai pouvoir de Fireflower repose dans sa capacité à infliger des dégâts plus importants aux créatures sensibles au feu, comme les monstres se régénérant, les créatures familières au froid et les morts-vivants. C'est une arme +1 contre les ennemis normaux.
+
+Utilisable par :
+Yasraena~
+@68 = ~Ironkiss +5~
+@69 = ~Ceci est l'épée courte enchantée que Yasraena appelle Ironkiss. En vue de la fuite de Yasraena de l'Ombre-Terre, Divalir l'a armée d'une paire d'épées courtes assorties. Il s'agit de l'une d'entre elles. Pendant que Yasraena était à Suldanessellar, Divalir a amélioré Ironkiss pour mieux la préparer aux défis qui l'attendaient.
+
+Paramètres :
+Ironkiss est devenue beaucoup plus mortelle, défendant la vie de Yasraena avec d'autant plus d'efficacité. Les puissants enchantements de Divalir renouvellent continuellement la vie de Yasraena tant qu'elle manie cette lame.
+
+Utilisable par :
+Yasraena~
+@70 = ~Fireflower +5~
+@71 = ~Ceci est l'épée courte enchantée que Yasraena appelle Fireflower. En vue de la fuite de Yasraena de l'Ombre-Terre, Divalir l'a armée d'une paire d'épées courtes assorties. Il s'agit de l'une d'entre elles. Pendant que Yasraena était à Suldanessellar, Divalir a amélioré Fireflower pour mieux la préparer aux défis qui l'attendaient.
+
+Paramètres :
+Fireflower continue à rechercher la destruction des morts-vivants, mais elle a également été enchantée pour s'occuper plus sérieusement des démons. Comme Ironkiss, Fireflower protège la vie de Yasraena.
+
+Utilisable par :
+Yasraena~
+@72 = ~Après l'accession de <CHARNAME> à la divinité, Yasraena s'était enfin acquittée de sa dette. Elle retourna à Suldanessellar pour y retrouver son bien-aimé Divalir. Ils se marièrent à Suldanessellar, mais la cité elfe n'accepta pas la drow malgré sa participation à la sauvegarde de l'Arbre de Vie. Le couple quitta la cité presque immédiatement après leur mariage. Pendant cinq années ils errèrent à travers les Royaumes. Yasraena était rejetée partout, et l'amertume de Divalir s'intensifiait par amour pour elle. A la naissance de leur premier enfant, un demi-drow  dont le rejet aurait été plus total encore que pour sa mère, ils quittèrent Féérune et le Plan Matériel. Ils résident à Sigil, enfin heureux, pour le restant de leurs jours.~
+@73 = ~Une fois l'épreuve de <CHARNAME> au Trône de Bhaal terminée, et qu'il fut libéré de sa souillure, Yasraena s'était enfin acquittée de sa dette. Elle se sépara de <CHARNAME>, bien qu'elle resta sa loyale amie, et retourna à Suldanessellar pour y retrouver son bien-aimé Divalir. Ils se marièrent à Suldanessellar, mais la cité elfe n'acceptait pas la drow malgré sa participation à la sauvegarde de l'Arbre de Vie. Le couple quitta la cité presque immédiatement après leur mariage. Pendant cinq années ils errèrent à travers les Royaumes. Yasraena était rejetée partout, et l'amertume de Divalir s'intensifiait par amour pour elle. A la naissance de leur premier enfant, un demi-drow  dont le rejet aurait été plus total encore que pour sa mère, ils quittèrent Féérune et le Plan Matériel. Ils résident à Sigil, enfin heureux, pour le restant de leurs jours.~ ~Une fois l'épreuve de <CHARNAME> au Trône de Bhaal terminée, et qu'elle fut libérée de sa souillure, Yasraena s'était enfin acquittée de sa dette. Elle se sépara de <CHARNAME>, bien qu'elle resta sa loyale amie, et retourna à Suldanessellar pour y retrouver son bien-aimé Divalir. Ils se marièrent à Suldanessellar, mais la cité elfe n'acceptait pas la drow malgré sa participation à la sauvegarde de l'Arbre de Vie. Le couple quitta la cité presque immédiatement après leur mariage. Pendant cinq années ils errèrent à travers les Royaumes. Yasraena était rejetée partout, et l'amertume de Divalir s'intensifiait par amour pour elle. A la naissance de leur premier enfant, un demi-drow  dont le rejet aurait été plus total encore que pour sa mère, ils quittèrent Féérune et le Plan Matériel. Ils résident à Sigil, enfin heureux, pour le restant de leurs jours.~
+@74 = ~Une fois l'épreuve de <CHARNAME> au Trône de Bhaal terminée, et qu'il fut libéré de sa souillure, Yasraena s'était enfin acquittée de sa dette, et elle retourna à Suldanessellar pour y retrouver son bien-aimé Divalir. Ils se marièrent à Suldanessellar, et la cité elfe autorisa la drow à y habiter, pas pour sa participation à la sauvegarde de l'Arbre de Vie, mais grâce à l'influence de <PRO_LADYLORD> <CHARNAME>. Bien qu'on tolère que Yasraena habite là, toute l'influence de <CHARNAME> ne pouvait contraindre les elfes à la traiter comme l'une des leurs. Pendant cinq années, Yasraena et Divalir habitèrent à Suldanessellar, tolérés mais jamais acceptés. Mais à la naissance de leur premier enfant, les elfes rejetèrent résolument le couple et ils errèrent à travers les Royaumes. Yasraena était rejetée partout, et l'amertume de Divalir s'intensifiait par amour pour elle et pour son enfant, un demi-drow  dont le rejet aurait été plus total encore que pour sa mère. Finalement, ils firent leurs adieux à <CHARNAME>, et ils quittèrent Féérune et le Plan Matériel. Yasraena et Divalir résident à Sigil, enfin heureux, pour le restant de leurs jours.~ ~Une fois l'épreuve de <CHARNAME> au Trône de Bhaal terminée, et qu'elle fut libérée de sa souillure, Yasraena s'était enfin acquittée de sa dette, et elle retourna à Suldanessellar pour y retrouver son bien-aimé Divalir. Ils se marièrent à Suldanessellar, et la cité elfe autorisa la drow à y habiter, pas pour sa participation à la sauvegarde de l'Arbre de Vie, mais grâce à l'influence de <PRO_LADYLORD> <CHARNAME>. Bien qu'on tolère que Yasraena habite là, toute l'influence de <CHARNAME> ne pouvait contraindre les elfes à la traiter comme l'une des leurs. Pendant cinq années, Yasraena et Divalir habitèrent à Suldanessellar, tolérés mais jamais acceptés. Mais à la naissance de leur premier enfant, les elfes rejetèrent résolument le couple et ils errèrent à travers les Royaumes. Yasraena était rejetée partout, et l'amertume de Divalir s'intensifiait par amour pour elle et pour son enfant, un demi-drow  dont le rejet aurait été plus total encore que pour sa mère. Finalement, ils firent leurs adieux à <CHARNAME>, et ils quittèrent Féérune et le Plan Matériel. Yasraena et Divalir résident à Sigil, enfin heureux, pour le restant de leurs jours.~
+@75 = ~Tu ne toucheras plus jamais Fireflower ! Divalir me l'a donnée à MOI !~
+@76 = ~Je refuse de partir sans Fireflower.~
+@77 = ~Ironkiss est à MOI seule.~
+@78 = ~Je ne laisserai pas ce présent de Divalir derrière !~

@@ -1,0 +1,35 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Yasraena")
+    Wait(1)
+
+    ReallyForceSpell(Myself,RED_EFFECT)
+
+    Wait(2)
+
+    ActionOverride("YASRAENA",LeaveParty())
+    ActionOverride("YASRAENA",MoveGlobal("AR1604","YASRAENA",[203.108]))
+    EndCutSceneMode()
+
+    Wait(1)
+END
+
+/*
+    SmallWait(5)
+    ReallyForceSpell(Myself,WIZARD_DIMENSION_DOOR)
+    ActionOverride("Yasraena",LeaveParty())
+    Wait(2)
+    ActionOverride("YASRAENA",MoveGlobal("AR0511","YASRAENA",[707.424]))
+    Wait(2)
+    ActionOverride("YSTMCPTN",ReallyForceSpell("YSTMCPTN",WIZARD_DIMENSION_DOOR))
+    ActionOverride("YSTMCPTN",MoveGlobal("AR0511","YSTMCPTN",[720.567]))
+    Wait(2)
+    ActionOverride("YSTMELF",ReallyForceSpell("YSTMELF",WIZARD_DIMENSION_DOOR))
+    ActionOverride("YSTMELF",MoveGlobal("AR0511","YSTMELF",[710.509]))
+    Wait(2)
+    EndCutSceneMode()
+    Wait(1)
+END
+*/

@@ -1,0 +1,68 @@
+@65 = ~This is Yasraena's enchanted short sword which she calls Ironkiss. Preparing for Yasraena's escape from the Underdark, Divalir armed her with a matched set of short swords. This is one of them.
+
+Statistics:
+The bite of Ironkiss is deep and continues to bleed long after the initial wound is received. It is of +2 enchantment.
+
+Poison Damage
+THAC0: +2
+Damage: 1d6 +2 (piercing)
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 18 Strength
+
+Weight: 3
+~
+
+@67 = ~This is Yasraena's enchanted short sword which she calls Fireflower. Preparing for Yasraena's escape from the Underdark, Divalir armed her with a matched set of short swords. This is one of them.
+
+Statistics:
+Fireflower's true power lies in its ability to do greater damage to creatures susceptible to fire, such as regenerating monsters, cold-based creatures, and undead. It is of +1 enchantment against normal foes.
+
+THAC0: +1
+Damage: 1d6 +1 (piercing)
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 18 Strength
+
+Weight: 3
+~
+
+@69 = ~This is Yasraena's enchanted short sword which she calls Ironkiss. Preparing for Yasraena's escape from the Underdark, Divalir armed her with a matched set of short swords. This is one of them. While Yasraena was in Suldanessellar, Divalir upgraded Ironkiss to better equip her for the challenges ahead.
+
+Statistics:
+Ironkiss has become much more deadly while simultaneously defending her life more effectively. Divalir's strong enchantments continually renew Yasraena's life as long as she wields this blade.
+
+10% Chance to kill target on contact
++1 to AC
++1 to Constitution
+Regenerates 1 HP per second
+THAC0: +5
+Damage: 1d6 +5 (piercing)
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 18 Strength
+
+Weight: 3
+~
+
+@71 = ~This is Yasraena's enchanted short sword which she calls Fireflower. Preparing for Yasraena's escape from the Underdark, Divalir armed her with a matched set of short swords. This is one of them. While Yasraena was in Suldanessellar, Divalir upgraded Fireflower to better equip her for the challenges ahead.
+
+Statistics:
+Fireflower continues to seek the destruction of undead, but it has also been enchanted to deal harshly with demons.  Like Ironkiss, Fireflower guards Yasraena's life.
+
+THAC0: +5
+Damage: 1d6 +5 (piercing)
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 18 Strength
+
+Weight: 3
+~

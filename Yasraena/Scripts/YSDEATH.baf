@@ -1,0 +1,39 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("YSTMCPTN")
+		Wait(1)
+
+		SmallWait(5)
+		FaceObject("YASRAENA")
+		SmallWait(5)
+		ActionOverride("YASRAENA",FaceObject("YSTMCPTN"))
+		Wait(2)
+		ForceSpell("YASRAENA",CUTSCENE_FLESH_TO_STONE)
+		SmallWait(10)
+		Wait(3)
+		ForceSpell("YASRAENA",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE)
+		Wait(1)
+		EndCutSceneMode()
+END
+
+
+/*
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("YASRAENA")
+    ReallyForceSpell(Myself,RED_EFFECT)
+    ReallyForceSpell(Myself,CUTSCENE_FLESH_TO_STONE)
+    ReallyForceSpell(Myself,WIZARD_DISINTEGRATE_IGNORE_RESISTANCE)
+
+    Wait(2)
+
+    EndCutSceneMode()
+
+    Wait(1)
+END
+
+*/

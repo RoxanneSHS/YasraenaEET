@@ -1,0 +1,15 @@
+IF
+  Global("YasraenaRA","GLOBAL",1)
+  Global("YasraenaMatch","GLOBAL",1)
+  See(Player1)
+  CombatCounter(0)
+OR(2)
+  Global("YasraenaTalk","LOCALS",15)
+  Global("YasraenaTalk","LOCALS",23)
+THEN
+ RESPONSE #100
+  IncrementGlobal("YasraenaTalk","LOCALS",1)
+  RealSetGlobalTimer("YasraenaTalkTime","GLOBAL",1)
+  Interact(Player1)
+END
+

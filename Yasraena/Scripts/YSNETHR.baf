@@ -1,0 +1,22 @@
+
+
+
+IF
+
+Global("GiveDivRing","GLOBAL",1)
+
+THEN
+RESPONSE #100
+
+GiveItemCreate("DIVRING",Player1,0,0,0)
+
+SetGlobal("GiveDivRing","GLOBAL",2)
+END
+
+IF
+Global("GiveDivRing","GLOBAL",2)
+THEN
+RESPONSE #100
+EscapeArea()
+SetGlobal("GiveDivRing","GLOBAL",3)
+END

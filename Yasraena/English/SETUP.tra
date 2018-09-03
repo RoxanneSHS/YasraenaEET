@@ -1,0 +1,103 @@
+@0  = ~Yasraena (BG2:SoA & TOB NPC) created by nethrin & Sillara of the Tamari~
+@1  = ~Yasraena~
+@2  = ~Are you friend or foe?~ [YASRA001]
+@3  = ~I must escape!~ [YASRA002]
+@4  = ~I am pleased to be in your company.~ [YASRA003]
+@5  = ~Do not let the darkness creep into your heart.~ [YASRA004]
+@6  = ~I fled the Underdark only to find you?~ [YASRA005]
+@7  = ~Blackguard! You have shown me that the surface is no better than the drow realm.~ [YASRA006]
+@8  = ~If this is your will, then I will lead with honor.~ [YASRA007]
+@9  = ~I am weary.~ [YASRA008]
+@10 = ~We should not stand thus exposed. My past may yet be pursuing me.~ [YASRA009]
+@11 = ~For Divalir!~ [YASRA010]
+@12 = ~Feel the bite of Ironkiss!~ [YASRA011]
+@13 = ~Fireflower's wrath shall consume you!~ [YASRA012]
+@14 = ~My blades dance before me!~ [YASRA013]
+@15 = ~Ssussun pholor dos!~ [YASRA014]
+@16 = ~Uh!~ [YASRA015]
+@17 = ~So passes Yasraena.~ [YASRA016]
+@18 = ~Defend me!~ [YASRA017]
+@19 = ~We are taught that in the forests the surface Elves plot our downfall.~ [YASRA018]
+@20 = ~This place is nothing like Menzoberranzan. All is strange to me.~ [YASRA019]
+@21 = ~My eyes see clearly here.~ [YASRA020]
+@22 = ~Must we walk about in the light?~ [YASRA021]
+@23 = ~Though darkness blankets the land, the moon and stars still shine upon us. I am beginning to understand the Elven fascination with the celestial bodies.~ [YASRA022]
+@24 = ~Why do you call on me?~ [YASRA023]
+@25 = ~You need me?~ [YASRA024]
+@26 = ~Yes?~ [YASRA025]
+@27 = ~There is much that I can do.~ [YASRA026]
+@28 = ~Khaless nau uss mzild taga dosstan.~ [YASRA027]
+@29 = ~What is it?~ [YASRA028]
+@30 = ~I go.~ [YASRA029]
+@31 = ~Is this the best course?~ [YASRA030]
+@32 = ~Xun izil dos phuul quarthen, lueth dro.~ [YASRA031]
+@33 = ~I fear nothing.~ [YASRA032]
+@34 = ~Quickly.~ [YASRA033]
+@35 = ~I work well here.~ [YASRA034]
+@36 = ~Without question.~ [YASRA035]
+@37 = ~The drow do not forgive. If I am found, that hour is my last.~ [YASRA036]
+@38 = ~So long on the surface, yet your ways still puzzle me.~ [YASRA037]
+@39 = ~My blades cut deep!~ [YASRA038]
+@40 = ~Oloth plynn dos!~ [YASRA039]
+@41 = ~My blades shall have you in time!~ [YASRA040]
+@42 = ~We females are stronger, yes, but I shall not be burdened down.~ [YASRA041]
+@43 = ~Ssussan!~ [YASRA042]
+@44 = ~The foolish and unwary find surprises.~ [YASRA043]
+@45 = ~Darkness is both friend and enemy.~ [YASRA044]
+@46 = ~I am no cutpurse!~ [YASRA045]
+@47 = ~When asked about her past, YASRAENA tells you that she was fortunate to escape the darkness of the drow city Menzoberranzan, but she never tells the tale of her escape without honoring the sacrifice of her master, Divalir.~
+@48 = ~Divalir~
+@49 = ~Guard~
+@50 = ~Tsabrak~
+@51 = ~Kinalluth~
+@52 = ~Kinalluth's Guard~
+@53 = ~Nethrin~
+@54 = ~Matron Arkhenneld~
+@55 = ~Arkhenneld Drow~
+@56 = ~Divalir's Guard~
+@57 = ~Greater Yochlol~
+@58 = ~Tsabrak's Wand~
+@59 = ~Divalir needs this to set himself free from his prison.~
+@60 = ~Divalir's Ring~
+@61 = ~This ring glows as long as Divalir lives.~
+@62 = ~Yasraena's Necklace~
+@63 = ~This necklace is of delicately carved gold, set with the largest, most perfect ruby you have ever seen.  Yasraena never removes it, and, despite its lack of magical qualities, she seems as attached to it as she is to her swords.~
+@64 = ~Ironkiss~
+@65 = ~This is Yasraena's enchanted short sword which she calls Ironkiss. Preparing for Yasraena's escape from the Underdark, Divalir armed her with a matched set of short swords. This is one of them.
+
+Statistics:
+The bite of Ironkiss is deep and continues to bleed long after the initial wound is received. It is of +2 enchantment.
+
+Usable by:
+Yasraena~
+@66 = ~Fireflower~
+@67 = ~This is Yasraena's enchanted short sword which she calls Fireflower. Preparing for Yasraena's escape from the Underdark, Divalir armed her with a matched set of short swords. This is one of them.
+
+Statistics:
+Fireflower's true power lies in its ability to do greater damage to creatures susceptible to fire, such as regenerating monsters, cold-based creatures, and undead. It is of +1 enchantment against normal foes.
+
+Usable by:
+Yasraena~
+@68 = ~Ironkiss +5~
+@69 = ~This is Yasraena's enchanted short sword which she calls Ironkiss. Preparing for Yasraena's escape from the Underdark, Divalir armed her with a matched set of short swords. This is one of them. While Yasraena was in Suldanessellar, Divalir upgraded Ironkiss to better equip her for the challenges ahead.
+
+Statistics:
+Ironkiss has become much more deadly while simultaneously defending her life more effectively. Divalir's strong enchantments continually renew Yasraena's life as long as she wields this blade.
+
+Usable by:
+Yasraena~
+@70 = ~Fireflower +5~
+@71 = ~This is Yasraena's enchanted short sword which she calls Fireflower. Preparing for Yasraena's escape from the Underdark, Divalir armed her with a matched set of short swords. This is one of them. While Yasraena was in Suldanessellar, Divalir upgraded Fireflower to better equip her for the challenges ahead.
+
+Statistics:
+Fireflower continues to seek the destruction of undead, but it has also been enchanted to deal harshly with demons.  Like Ironkiss, Fireflower guards Yasraena's life.
+
+Usable by:
+Yasraena~
+@72 = ~After <CHARNAME>'s ascension to godhood, Yasraena at last held her debt repaid. She returned to Suldanessellar to be reunited with her beloved Divalir. They were wed in Suldanessellar, but the elven city did not accept the drow, despite her participation in the saving of the Tree of Life. The pair left the city almost immediately after their bonding. For five years they wandered throughout the Realms. Yasraena was everywhere rejected, and Divalir grew bitter for her sake. On the birth of their first child, a half-drow whose rejection would be even more complete than his mother's, they left Faerun and the Prime Material Plane. They dwelt in Sigil, contented at last, for the rest of their days.~
+@73 = ~After <CHARNAME>'s ordeal at the Throne of Bhaal ended, and <PRO_HESHE> was freed of <PRO_HISHER> taint, Yasraena at last held her debt repaid. She parted company with <CHARNAME>, though remaining <PRO_HISHER> loyal friend, and Yasraena returned to Suldanessellar to be reunited with her beloved Divalir. They were wed in Suldanessellar, but the elven city did not accept the drow, despite her participation in the saving of the Tree of Life. The pair left the city almost immediately after their bonding. For five years they wandered throughout the Realms. Yasraena was everywhere rejected, and Divalir grew bitter for her sake. On the birth of their first child, a half-drow whose rejection would be even more complete than his mother's, they left Faerun and the Prime Material Plane. They dwelt in Sigil, contented at last, for the rest of their days.~
+@74 = ~After <CHARNAME>'s ordeal at the Throne of Bhaal ended, and <PRO_HESHE> was freed of <PRO_HISHER> taint, Yasraena at last held her debt repaid, and she returned to Suldanessellar to be reunited with her beloved Divalir. They were wed in Suldanessellar, and the elven city permitted the drow to live there, not for her participation in the saving of the Tree of Life, but through the influence of <PRO_LADYLORD> <CHARNAME>. Though Yasraena was suffered to dwell there, however, not all the influence even of <CHARNAME> could force the elves to treat her as one of their own.  For five years Yasraena and Divalir dwelt in Suldanessellar, tolerated but never accepted.  But on the birth of their first child, the elves rejected the pair outright, and they wandered throughout the Realms. Yasraena was everywhere rejected, and Divalir grew bitter for her sake and for that of their child, a half-drow whose rejection was even more complete than his mother's. In the end, they bade farewell to <CHARNAME>, and they left Faerun and the Prime Material Plane. Yasraena and Divalir dwelt in Sigil, contented at last, for the rest of their days.~
+@75 = ~You shall never touch Fireflower again! Divalir gave it to ME!~
+@76 = ~I refuse to leave without Fireflower.~
+@77 = ~Ironkiss is MINE alone!~
+@78 = ~I will not leave this gift of Divalir's behind!~

@@ -1,0 +1,9 @@
+IF
+  !InParty(Myself)
+  GlobalTimerExpired("YasraenaCountdown","GLOBAL")
+  !GlobalGT("YasraenaRescued","GLOBAL",0)
+THEN
+  RESPONSE #100
+  Kill("YASRAENA")
+END
+
