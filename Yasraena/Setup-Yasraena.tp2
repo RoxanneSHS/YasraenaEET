@@ -204,7 +204,6 @@ ACTION_IF GAME_IS ~bg2ee EET~ BEGIN
 ADD_JOURNAL @5000 @5001 @5002 @5003 @5004 @5005 @5006 @5007 @5008 @5009 @5010 @5011 @5012 @5013 @5014 @5015 @5016 @5017 @5018 @5019 @5020 @5021 @5022 USING ~Yasraena/%LANGUAGE%/JOURNAL.tra~
 END
 
-/* compile .d files into .dlg files which get stored in the Overide directory */
 COMPILE ~Yasraena/Dialogues/YASRAENP.d~ ~Yasraena/Dialogues/YASRA25P.d~
 USING ~Yasraena/%s/JOURNAL.tra~
 COMPILE ~Yasraena/Dialogues/BYASRAEN.d~ ~Yasraena/Dialogues/BYASRA25.d~
@@ -213,7 +212,6 @@ USING ~Yasraena/%s/JOURNAL.tra~
 COMPILE ~Yasraena/Dialogues/YASRAENA.d~ ~Yasraena/Dialogues/DIVALIR.d~ ~Yasraena/Dialogues/DIVALIR1.d~ ~Yasraena/Dialogues/YSCPTN.d~ ~Yasraena/Dialogues/YSTMCPTN.d~ ~Yasraena/Dialogues/YSNETHR.d~ ~Yasraena/Dialogues/YSMOM.d~
 USING ~Yasraena/%s/JOURNAL.tra~
 
-/* compile .baf files into .bcs files which get stored in the Override directory */
 COMPILE ~Yasraena/Scripts/YSAR0603.baf~ ~Yasraena/Scripts/YSAR2200.baf~ ~Yasraena/Scripts/YSAR2800.baf~ ~Yasraena/Scripts/YSAR0300.baf~ ~Yasraena/Scripts/YSAR0704.baf~ ~Yasraena/Scripts/YSAR5202.baf~ ~Yasraena/Scripts/YSAR6100.baf~
 COMPILE ~Yasraena/Scripts/YASRAENA.baf~ ~Yasraena/Scripts/YASRAE25.baf~ ~Yasraena/Scripts/DIVALIR.baf~ ~Yasraena/Scripts/DIVALIR1.baf~ ~Yasraena/Scripts/YSDROW.baf~ ~Yasraena/Scripts/YSCPTN.baf~ ~Yasraena/Scripts/YSTMCPTN.baf~ ~Yasraena/Scripts/YSTMELF.baf~ ~Yasraena/Scripts/YSNETHR.baf~ ~Yasraena/Scripts/YSMOM.baf~ ~Yasraena/Scripts/YSSIS.baf~ ~Yasraena/Scripts/YSDIVELF.baf~ ~Yasraena/Scripts/YSDEMON.baf~ ~Yasraena/Scripts/YASRAENX.baf~ ~Yasraena/Scripts/YASRA25D.baf~
 
@@ -223,29 +221,20 @@ COMPILE ~Yasraena/Scripts/YSDEATH.baf~
 COMPILE ~Yasraena/Scripts/YSBETRAY.baf~
 COMPILE ~Yasraena/Scripts/YSFIX.baf~
 
-/* Extend area script */
-COPY_EXISTING ~AR0603.bcs~ ~override/AR0603.bcs~
 EXTEND_TOP ~AR0603.bcs~ ~Yasraena/Scripts/YSAR0603.baf~
 
-COPY_EXISTING ~AR6200.bcs~ ~override/AR6200.bcs~
 EXTEND_TOP ~AR6200.bcs~ ~Yasraena/Scripts/YSAR6200.baf~
 
-COPY_EXISTING ~AR2200.bcs~ ~override/AR2200.bcs~
 EXTEND_TOP ~AR2200.bcs~ ~Yasraena/Scripts/YSAR2200.baf~
 
-COPY_EXISTING ~AR2800.bcs~ ~override/AR2800.bcs~
 EXTEND_TOP ~AR2800.bcs~ ~Yasraena/Scripts/YSAR2800.baf~
 
-COPY_EXISTING ~AR0300.bcs~ ~override/AR0300.bcs~
 EXTEND_TOP ~AR0300.bcs~ ~Yasraena/Scripts/YSAR0300.baf~
 
-COPY_EXISTING ~AR0704.bcs~ ~override/AR0704.bcs~
 EXTEND_TOP ~AR0704.bcs~ ~Yasraena/Scripts/YSAR0704.baf~
 
-COPY_EXISTING ~AR5202.bcs~ ~override/AR5202.bcs~
 EXTEND_TOP ~AR5202.bcs~ ~Yasraena/Scripts/YSAR5202.baf~
 
-COPY_EXISTING ~AR6100.bcs~ ~override/AR6100.bcs~
 EXTEND_TOP ~AR6100.bcs~ ~Yasraena/Scripts/YSAR6100.baf~
 
 COPY ~Yasraena/2da/YASRAND1.2da~ ~override/YASRAND1.2da~
@@ -277,4 +266,4 @@ APPEND ~interdia.2da~
 ~YASRAENA BYASRAEN BYASRA25~
 UNLESS ~YASRAENA~
 
-LAF HANDLE_AUDIO END
+COPY ~Yasraena/Audio~ ~override~
