@@ -1,7 +1,7 @@
 BACKUP ~Yasraena/backup~
 AUTHOR ~gilalion@gmail.com~
 
-VERSION ~v17~
+VERSION ~v18~
 
 AUTO_TRA ~Yasraena/%s~
 
@@ -44,7 +44,7 @@ LANGUAGE ~Español (Traducido por clandlan.net)~
          ~Spanish~
          ~Yasraena/Spanish/SETUP.tra~
 
-LANGUAGE ~Russian (Hallyafae, ArtBerserker & aerie.ru [adapted by prowler])~
+LANGUAGE ~Russian (Hallyafae, ArtBerserker & aerie.ru [thanks Serdrick])~
          ~Russian~
          ~Yasraena/Russian/SETUP.tra~
          
