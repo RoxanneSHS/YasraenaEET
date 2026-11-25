@@ -32,15 +32,19 @@ LANGUAGE ~English~
          ~English~
          ~Yasraena/English/SETUP.tra~
 
+LANGUAGE ~Schinese~
+         ~schinese~
+         ~Yasraena/schinese/SETUP.tra~
+
 LANGUAGE ~Deutsch (Uebersetzung von Fey)~
          ~German~
          ~Yasraena/German/SETUP.tra~
 
-LANGUAGE ~Français (par Ixyon)~
+LANGUAGE ~FranÃ§ais (par Ixyon)~
          ~French~
          ~Yasraena/French/SETUP.tra~
 
-LANGUAGE ~Español (Traducido por clandlan.net)~
+LANGUAGE ~EspaÃ±ol (Traducido por clandlan.net)~
          ~Spanish~
          ~Yasraena/Spanish/SETUP.tra~
 
